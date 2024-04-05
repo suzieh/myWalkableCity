@@ -16,7 +16,7 @@ This reposoitory assumes running Python3. Please then also install all requireme
 
 ## Deployment
 
-The MyWalkableCity is deployed with Render here
+The [MyWalkableCity application](https://mywalkablecity.onrender.com/) is deployed with Render (note on 0.1 CPU plan, can be slow to update given data sizes).
 
 
 ## Description of other Python scripts
