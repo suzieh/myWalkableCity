@@ -20,9 +20,9 @@ external_stylesheet = ['https://codepen.io/chriddyp/pen/bWLwgP.css'] # styleshee
 
 
 # Bring in the buffers datasets (buffer, trail_type, building_type)
-trail = pd.read_csv('../data/buffers_800t_1000p_1000b/combined_bikeway_buffers.csv', header=0)
-park = pd.read_csv('../data/buffers_800t_1000p_1000b/combined_park_buffers.csv', header=0)
-building = pd.read_csv('../data/buffers_800t_1000p_1000b/combined_building_buffers.csv', header=0)
+trail = pd.read_csv('data/buffers_800t_1000p_1000b/combined_bikeway_buffers.csv', header=0)
+park = pd.read_csv('data/buffers_800t_1000p_1000b/combined_park_buffers.csv', header=0)
+building = pd.read_csv('data/buffers_800t_1000p_1000b/combined_building_buffers.csv', header=0)
 
 
 # Colors & Legend names for plotting
@@ -144,4 +144,4 @@ def update_output(trail_l, park_d, building_l):
 
 # Run the server
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)
