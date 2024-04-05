@@ -1,0 +1,568 @@
+<metadata xml:lang="en">
+	<Esri>
+		<CreaDate>20200210</CreaDate>
+		<CreaTime>10592000</CreaTime>
+		<ArcGISFormat>1.0</ArcGISFormat>
+		<SyncOnce>FALSE</SyncOnce>
+		<DataProperties>
+			<lineage>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20190618" Time="140944">Append PARKS_ PARKS TEST # #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteRows" Date="20190620" Time="132249">DeleteRows C:\Users\pwv299\Desktop\METRO_PARKS_TRAILS_v1_2\METRO_PARKS_TRAILS_v1_2.gdb\MetroCollaborativeParks</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.7\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20200205" Time="154925">Append MetroCollaborativeParks_anoka MetroCollaborativeParks NO_TEST "PARKID "Park ID" true false false 16 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,PARKID,-1,-1;PARKNAME "Park Name" true false false 100 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,PARKNAME,-1,-1;NAME_ALT "Alternate Name" true true false 100 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,NAME_ALT,-1,-1;PARK_ADDR "Address" true false false 255 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,PARK_ADDR,-1,-1;CITY_MUNI "Municipality" true false false 50 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,CITY_MUNI,-1,-1;COUNTY "County" true false false 3 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,COUNTY,-1,-1;STATE "State" true false false 2 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,STATE,-1,-1;PARKSTATUS "Park Status" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,PARKSTATUS,-1,-1;WINTER_STS "Winter Status" true true false 7 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,WINTER_STS,-1,-1;FUNC_TYPE "Functional Type" true true false 100 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,FUNC_TYPE,-1,-1;LANDOWNER "Landowner" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,LANDOWNER,-1,-1;OWNERTYPE "Landowner Type" true true false 2 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,OWNERTYPE,-1,-1;AGENCYNAME "Managing Agency" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,AGENCYNAME,-1,-1;AGENCYTYPE "Agency Type" true true false 2 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,AGENCYTYPE,-1,-1;YEAROPEN "Year Open" true true false 2 Short 0 0 ,First,#,MetroCollaborativeParks_anoka,YEAROPEN,-1,-1;LANDCOVER "Land Cover" true true false 100 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,LANDCOVER,-1,-1;WATERACRES "Water Acres" true true false 8 Double 0 0 ,First,#,MetroCollaborativeParks_anoka,WATERACRES,-1,-1;LAND_ACRES "Land Acres" true true false 8 Double 0 0 ,First,#,MetroCollaborativeParks_anoka,LAND_ACRES,-1,-1;PARK_ACRES "Park Acres" true false false 8 Double 0 0 ,First,#,MetroCollaborativeParks_anoka,PARK_ACRES,-1,-1;PLND_ACRES "Planned Park Acres" true true false 8 Double 0 0 ,First,#,MetroCollaborativeParks_anoka,PLND_ACRES,-1,-1;TRL_MILES "Trail Miles" true true false 8 Double 0 0 ,First,#,MetroCollaborativeParks_anoka,TRL_MILES,-1,-1;ACQSOURCE "Acquisition Source" true true false 75 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,ACQSOURCE,-1,-1;ACQMETHOD "Acquisition Method" true true false 75 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,ACQMETHOD,-1,-1;ACQCOMMENT "Acquisition Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,ACQCOMMENT,-1,-1;DEVSOURCE "Development Source" true true false 75 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,DEVSOURCE,-1,-1;DEVCOMMENT "Development Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,DEVCOMMENT,-1,-1;RESTRICTS "Restrictions" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,RESTRICTS,-1,-1;LWCFPROT "LWCF Protection" true true false 7 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,LWCFPROT,-1,-1;OTHERPROT "Other Protection" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,OTHERPROT,-1,-1;RESPRTCMNT "Restriction Protection Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,RESPRTCMNT,-1,-1;SERVICAREA "Service Area" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,SERVICAREA,-1,-1;MGMT_PRIOR "Management Priority" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,MGMT_PRIOR,-1,-1;VLTR_OPPS "Volunteer Opportunities" true true false 7 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,VLTR_OPPS,-1,-1;SPEC_FEAT "Special Feature" true true false 250 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,SPEC_FEAT,-1,-1;PARK_HOURS "Park Hours" true true false 75 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,PARK_HOURS,-1,-1;PKING_CAP "Parking Capacity" true true false 4 Long 0 0 ,First,#,MetroCollaborativeParks_anoka,PKING_CAP,-1,-1;VISITORCTS "Visitor Counts" true true false 4 Long 0 0 ,First,#,MetroCollaborativeParks_anoka,VISITORCTS,-1,-1;PASSHOLDER "Passholders" true true false 4 Long 0 0 ,First,#,MetroCollaborativeParks_anoka,PASSHOLDER,-1,-1;PARK_EMAIL "Park Email Address" true true false 40 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,PARK_EMAIL,-1,-1;PARK_PHONE "Park Phone Number" true true false 40 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,PARK_PHONE,-1,-1;PARK_URL "Park URL" true true false 255 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,PARK_URL,-1,-1;MNTCEEMAIL "Maintenance Email Address" true true false 40 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,MNTCEEMAIL,-1,-1;MNTCEPHONE "Maintenance Phone Number" true true false 40 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,MNTCEPHONE,-1,-1;DATAAUTHOR "Data Author" true false false 50 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,DATAAUTHOR,-1,-1;EDITED_BY "Edited By" false false false 100 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,EDITED_BY,-1,-1;EDITED_DT "Edited Date" false false false 8 Date 0 0 ,First,#,MetroCollaborativeParks_anoka,EDITED_DT,-1,-1;CREATED_BY "Created By" false false false 100 Text 0 0 ,First,#,MetroCollaborativeParks_anoka,CREATED_BY,-1,-1;CREATED_DT "Created Date" false false false 8 Date 0 0 ,First,#,MetroCollaborativeParks_anoka,CREATED_DT,-1,-1;SHAPE_Length "SHAPE_Length" false true true 8 Double 0 0 ,First,#,MetroCollaborativeParks_anoka,SHAPE_Length,-1,-1;SHAPE_Area "SHAPE_Area" false true true 8 Double 0 0 ,First,#,MetroCollaborativeParks_anoka,SHAPE_Area,-1,-1" #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.7\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20200205" Time="155046">Append Parks_carver MetroCollaborativeParks NO_TEST "PARKID "Park ID" true false false 16 Text 0 0 ,First,#,Parks_carver,PARKID,-1,-1;PARKNAME "Park Name" true false false 100 Text 0 0 ,First,#,Parks_carver,PARKNAME,-1,-1;NAME_ALT "Alternate Name" true true false 100 Text 0 0 ,First,#,Parks_carver,NAME_ALT,-1,-1;PARK_ADDR "Address" true false false 255 Text 0 0 ,First,#,Parks_carver,PARK_ADDR,-1,-1;CITY_MUNI "Municipality" true false false 50 Text 0 0 ,First,#,Parks_carver,CITY_MUNI,-1,-1;COUNTY "COUNTY" true false false 3 Text 0 0 ,First,#,Parks_carver,COUNTY,-1,-1;STATE "STATE" true false false 2 Text 0 0 ,First,#,Parks_carver,STATE,-1,-1;PARKSTATUS "Park Status" true true false 50 Text 0 0 ,First,#,Parks_carver,PARKSTATUS,-1,-1;WINTER_STS "Winter Status" true true false 7 Text 0 0 ,First,#,Parks_carver,WINTER_STS,-1,-1;FUNC_TYPE "Functional Type" true true false 100 Text 0 0 ,First,#,Parks_carver,FUNC_TYPE,-1,-1;LANDOWNER "LANDOWNER" true true false 150 Text 0 0 ,First,#,Parks_carver,LANDOWNER,-1,-1;OWNERTYPE "Landowner Type" true true false 2 Text 0 0 ,First,#,Parks_carver,OWNERTYPE,-1,-1;AGENCYNAME "Managing Agency" true true false 150 Text 0 0 ,First,#,Parks_carver,AGENCYNAME,-1,-1;AGENCYTYPE "Agency Type" true true false 2 Text 0 0 ,First,#,Parks_carver,AGENCYTYPE,-1,-1;YEAROPEN "Year Open" true true false 2 Short 0 0 ,First,#,Parks_carver,YEAROPEN,-1,-1;LANDCOVER "Land Cover" true true false 100 Text 0 0 ,First,#,Parks_carver,LANDCOVER,-1,-1;WATERACRES "Water Acres" true true false 8 Double 0 0 ,First,#,Parks_carver,WATERACRES,-1,-1;LAND_ACRES "Land Acres" true true false 8 Double 0 0 ,First,#,Parks_carver,LAND_ACRES,-1,-1;PARK_ACRES "Park Acres" true false false 8 Double 0 0 ,First,#,Parks_carver,PARK_ACRES,-1,-1;PLND_ACRES "Planned Park Acres" true true false 8 Double 0 0 ,First,#,Parks_carver,PLND_ACRES,-1,-1;TRL_MILES "Trail Miles" true true false 8 Double 0 0 ,First,#,Parks_carver,TRL_MILES,-1,-1;ACQSOURCE "Acquisition Source" true true false 75 Text 0 0 ,First,#,Parks_carver,ACQSOURCE,-1,-1;ACQMETHOD "Acquisition Method" true true false 75 Text 0 0 ,First,#,Parks_carver,ACQMETHOD,-1,-1;ACQCOMMENT "Acquisition Comment" true true false 150 Text 0 0 ,First,#,Parks_carver,ACQCOMMENT,-1,-1;DEVSOURCE "Development Source" true true false 75 Text 0 0 ,First,#,Parks_carver,DEVSOURCE,-1,-1;DEVCOMMENT "Development Comment" true true false 150 Text 0 0 ,First,#,Parks_carver,DEVCOMMENT,-1,-1;RESTRICTS "Restrictions" true true false 50 Text 0 0 ,First,#,Parks_carver,RESTRICTS,-1,-1;LWCFPROT "LWCF Protection" true true false 7 Text 0 0 ,First,#,Parks_carver,LWCFPROT,-1,-1;OTHERPROT "Other Protection" true true false 50 Text 0 0 ,First,#,Parks_carver,OTHERPROT,-1,-1;RESPRTCMNT "Restriction Protection Comment" true true false 150 Text 0 0 ,First,#,Parks_carver,RESPRTCMNT,-1,-1;SERVICAREA "Service Area" true true false 50 Text 0 0 ,First,#,Parks_carver,SERVICAREA,-1,-1;MGMT_PRIOR "Management Priority" true true false 50 Text 0 0 ,First,#,Parks_carver,MGMT_PRIOR,-1,-1;VLTR_OPPS "Volunteer Opportunities" true true false 7 Text 0 0 ,First,#,Parks_carver,VLTR_OPPS,-1,-1;SPEC_FEAT "Special Feature" true true false 250 Text 0 0 ,First,#,Parks_carver,SPEC_FEAT,-1,-1;PARK_HOURS "Park Hours" true true false 75 Text 0 0 ,First,#,Parks_carver,PARK_HOURS,-1,-1;PKING_CAP "Parking Capacity" true true false 4 Long 0 0 ,First,#,Parks_carver,PKING_CAP,-1,-1;VISITORCTS "Visitor Counts" true true false 4 Long 0 0 ,First,#,Parks_carver,VISITORCTS,-1,-1;PASSHOLDER "Passholders" true true false 4 Long 0 0 ,First,#,Parks_carver,PASSHOLDER,-1,-1;PARK_EMAIL "Park Email Address" true true false 40 Text 0 0 ,First,#,Parks_carver,PARK_EMAIL,-1,-1;PARK_PHONE "Park Phone Number" true true false 40 Text 0 0 ,First,#,Parks_carver,PARK_PHONE,-1,-1;PARK_URL "Park URL" true true false 255 Text 0 0 ,First,#,Parks_carver,PARK_URL,-1,-1;MNTCEEMAIL "Maintenance Email Address" true true false 40 Text 0 0 ,First,#,Parks_carver,MNTCEEMAIL,-1,-1;MNTCEPHONE "Maintenance Phone Number" true true false 40 Text 0 0 ,First,#,Parks_carver,MNTCEPHONE,-1,-1;DATAAUTHOR "Data Author" true false false 50 Text 0 0 ,First,#,Parks_carver,DATAAUTHOR,-1,-1;EDITED_BY "Edited By" false false false 100 Text 0 0 ,First,#,Parks_carver,EDITED_BY,-1,-1;EDITED_DT "Edited Date" false false false 8 Date 0 0 ,First,#,Parks_carver,EDITED_DT,-1,-1;CREATED_BY "Created By" false false false 100 Text 0 0 ,First,#,Parks_carver,CREATED_BY,-1,-1;CREATED_DT "Created Date" false false false 8 Date 0 0 ,First,#,Parks_carver,CREATED_DT,-1,-1;SHAPE_Length "SHAPE_Length" false true true 8 Double 0 0 ,First,#,Parks_carver,SHAPE_Length,-1,-1;SHAPE_Area "SHAPE_Area" false true true 8 Double 0 0 ,First,#,Parks_carver,SHAPE_Area,-1,-1" #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.7\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20200205" Time="155122">Append MetroCollaborativeParks_dakota MetroCollaborativeParks NO_TEST "PARKID "Park ID" true false false 16 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,PARKID,-1,-1;PARKNAME "Park Name" true false false 100 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,PARKNAME,-1,-1;NAME_ALT "Alternate Name" true true false 100 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,NAME_ALT,-1,-1;PARK_ADDR "Address" true false false 255 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,PARK_ADDR,-1,-1;CITY_MUNI "Municipality" true false false 50 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,CITY_MUNI,-1,-1;COUNTY "COUNTY" true false false 3 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,COUNTY,-1,-1;STATE "STATE" true false false 2 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,STATE,-1,-1;PARKSTATUS "Park Status" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,PARKSTATUS,-1,-1;WINTER_STS "Winter Status" true true false 7 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,WINTER_STS,-1,-1;FUNC_TYPE "Functional Type" true true false 100 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,FUNC_TYPE,-1,-1;LANDOWNER "LANDOWNER" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,LANDOWNER,-1,-1;OWNERTYPE "Landowner Type" true true false 2 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,OWNERTYPE,-1,-1;AGENCYNAME "Managing Agency" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,AGENCYNAME,-1,-1;AGENCYTYPE "Agency Type" true true false 2 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,AGENCYTYPE,-1,-1;YEAROPEN "Year Open" true true false 2 Short 0 0 ,First,#,MetroCollaborativeParks_dakota,YEAROPEN,-1,-1;LANDCOVER "Land Cover" true true false 100 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,LANDCOVER,-1,-1;WATERACRES "Water Acres" true true false 8 Double 0 0 ,First,#,MetroCollaborativeParks_dakota,WATERACRES,-1,-1;LAND_ACRES "Land Acres" true true false 8 Double 0 0 ,First,#,MetroCollaborativeParks_dakota,LAND_ACRES,-1,-1;PARK_ACRES "Park Acres" true false false 8 Double 0 0 ,First,#,MetroCollaborativeParks_dakota,PARK_ACRES,-1,-1;PLND_ACRES "Planned Park Acres" true true false 8 Double 0 0 ,First,#,MetroCollaborativeParks_dakota,PLND_ACRES,-1,-1;TRL_MILES "Trail Miles" true true false 8 Double 0 0 ,First,#,MetroCollaborativeParks_dakota,TRL_MILES,-1,-1;ACQSOURCE "Acquisition Source" true true false 75 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,ACQSOURCE,-1,-1;ACQMETHOD "Acquisition Method" true true false 75 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,ACQMETHOD,-1,-1;ACQCOMMENT "Acquisition Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,ACQCOMMENT,-1,-1;DEVSOURCE "Development Source" true true false 75 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,DEVSOURCE,-1,-1;DEVCOMMENT "Development Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,DEVCOMMENT,-1,-1;RESTRICTS "Restrictions" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,RESTRICTS,-1,-1;LWCFPROT "LWCF Protection" true true false 7 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,LWCFPROT,-1,-1;OTHERPROT "Other Protection" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,OTHERPROT,-1,-1;RESPRTCMNT "Restriction Protection Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,RESPRTCMNT,-1,-1;SERVICAREA "Service Area" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,SERVICAREA,-1,-1;MGMT_PRIOR "Management Priority" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,MGMT_PRIOR,-1,-1;VLTR_OPPS "Volunteer Opportunities" true true false 7 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,VLTR_OPPS,-1,-1;SPEC_FEAT "Special Feature" true true false 250 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,SPEC_FEAT,-1,-1;PARK_HOURS "Park Hours" true true false 75 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,PARK_HOURS,-1,-1;PKING_CAP "Parking Capacity" true true false 4 Long 0 0 ,First,#,MetroCollaborativeParks_dakota,PKING_CAP,-1,-1;VISITORCTS "Visitor Counts" true true false 4 Long 0 0 ,First,#,MetroCollaborativeParks_dakota,VISITORCTS,-1,-1;PASSHOLDER "Passholders" true true false 4 Long 0 0 ,First,#,MetroCollaborativeParks_dakota,PASSHOLDER,-1,-1;PARK_EMAIL "Park Email Address" true true false 40 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,PARK_EMAIL,-1,-1;PARK_PHONE "Park Phone Number" true true false 40 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,PARK_PHONE,-1,-1;PARK_URL "Park URL" true true false 255 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,PARK_URL,-1,-1;MNTCEEMAIL "Maintenance Email Address" true true false 40 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,MNTCEEMAIL,-1,-1;MNTCEPHONE "Maintenance Phone Number" true true false 40 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,MNTCEPHONE,-1,-1;DATAAUTHOR "Data Author" true false false 50 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,DATAAUTHOR,-1,-1;EDITED_BY "Edited By" false false false 100 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,EDITED_BY,-1,-1;EDITED_DT "Edited Date" false false false 8 Date 0 0 ,First,#,MetroCollaborativeParks_dakota,EDITED_DT,-1,-1;CREATED_BY "Created By" false false false 100 Text 0 0 ,First,#,MetroCollaborativeParks_dakota,CREATED_BY,-1,-1;CREATED_DT "Created Date" false false false 8 Date 0 0 ,First,#,MetroCollaborativeParks_dakota,CREATED_DT,-1,-1;SHAPE_Length "SHAPE_Length" false true true 8 Double 0 0 ,First,#,MetroCollaborativeParks_dakota,SHAPE_Length,-1,-1;SHAPE_Area "SHAPE_Area" false true true 8 Double 0 0 ,First,#,MetroCollaborativeParks_dakota,SHAPE_Area,-1,-1" #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.7\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20200205" Time="155153">Append MetroCollaborativeParks_hennepin MetroCollaborativeParks NO_TEST "PARKID "Park ID" true false false 16 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,PARKID,-1,-1;PARKNAME "Park Name" true false false 100 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,PARKNAME,-1,-1;NAME_ALT "Alternate Name" true true false 100 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,NAME_ALT,-1,-1;PARK_ADDR "Address" true false false 255 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,PARK_ADDR,-1,-1;CITY_MUNI "Municipality" true false false 50 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,CITY_MUNI,-1,-1;COUNTY "COUNTY" true false false 3 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,COUNTY,-1,-1;STATE "STATE" true false false 2 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,STATE,-1,-1;PARKSTATUS "Park Status" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,PARKSTATUS,-1,-1;WINTER_STS "Winter Status" true true false 7 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,WINTER_STS,-1,-1;FUNC_TYPE "Functional Type" true true false 100 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,FUNC_TYPE,-1,-1;LANDOWNER "LANDOWNER" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,LANDOWNER,-1,-1;OWNERTYPE "Landowner Type" true true false 2 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,OWNERTYPE,-1,-1;AGENCYNAME "Managing Agency" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,AGENCYNAME,-1,-1;AGENCYTYPE "Agency Type" true true false 2 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,AGENCYTYPE,-1,-1;YEAROPEN "Year Open" true true false 2 Short 0 0 ,First,#,MetroCollaborativeParks_hennepin,YEAROPEN,-1,-1;LANDCOVER "Land Cover" true true false 100 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,LANDCOVER,-1,-1;WATERACRES "Water Acres" true true false 8 Double 0 0 ,First,#,MetroCollaborativeParks_hennepin,WATERACRES,-1,-1;LAND_ACRES "Land Acres" true true false 8 Double 0 0 ,First,#,MetroCollaborativeParks_hennepin,LAND_ACRES,-1,-1;PARK_ACRES "Park Acres" true false false 8 Double 0 0 ,First,#,MetroCollaborativeParks_hennepin,PARK_ACRES,-1,-1;PLND_ACRES "Planned Park Acres" true true false 8 Double 0 0 ,First,#,MetroCollaborativeParks_hennepin,PLND_ACRES,-1,-1;TRL_MILES "Trail Miles" true true false 8 Double 0 0 ,First,#,MetroCollaborativeParks_hennepin,TRL_MILES,-1,-1;ACQSOURCE "Acquisition Source" true true false 75 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,ACQSOURCE,-1,-1;ACQMETHOD "Acquisition Method" true true false 75 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,ACQMETHOD,-1,-1;ACQCOMMENT "Acquisition Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,ACQCOMMENT,-1,-1;DEVSOURCE "Development Source" true true false 75 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,DEVSOURCE,-1,-1;DEVCOMMENT "Development Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,DEVCOMMENT,-1,-1;RESTRICTS "Restrictions" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,RESTRICTS,-1,-1;LWCFPROT "LWCF Protection" true true false 7 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,LWCFPROT,-1,-1;OTHERPROT "Other Protection" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,OTHERPROT,-1,-1;RESPRTCMNT "Restriction Protection Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,RESPRTCMNT,-1,-1;SERVICAREA "Service Area" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,SERVICAREA,-1,-1;MGMT_PRIOR "Management Priority" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,MGMT_PRIOR,-1,-1;VLTR_OPPS "Volunteer Opportunities" true true false 7 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,VLTR_OPPS,-1,-1;SPEC_FEAT "Special Feature" true true false 250 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,SPEC_FEAT,-1,-1;PARK_HOURS "Park Hours" true true false 75 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,PARK_HOURS,-1,-1;PKING_CAP "Parking Capacity" true true false 4 Long 0 0 ,First,#,MetroCollaborativeParks_hennepin,PKING_CAP,-1,-1;VISITORCTS "Visitor Counts" true true false 4 Long 0 0 ,First,#,MetroCollaborativeParks_hennepin,VISITORCTS,-1,-1;PASSHOLDER "Passholders" true true false 4 Long 0 0 ,First,#,MetroCollaborativeParks_hennepin,PASSHOLDER,-1,-1;PARK_EMAIL "Park Email Address" true true false 40 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,PARK_EMAIL,-1,-1;PARK_PHONE "Park Phone Number" true true false 40 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,PARK_PHONE,-1,-1;PARK_URL "Park URL" true true false 255 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,PARK_URL,-1,-1;MNTCEEMAIL "Maintenance Email Address" true true false 40 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,MNTCEEMAIL,-1,-1;MNTCEPHONE "Maintenance Phone Number" true true false 40 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,MNTCEPHONE,-1,-1;DATAAUTHOR "Data Author" true false false 50 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,DATAAUTHOR,-1,-1;EDITED_BY "Edited By" false false false 100 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,EDITED_BY,-1,-1;EDITED_DT "Edited Date" false false false 8 Date 0 0 ,First,#,MetroCollaborativeParks_hennepin,EDITED_DT,-1,-1;CREATED_BY "Created By" false false false 100 Text 0 0 ,First,#,MetroCollaborativeParks_hennepin,CREATED_BY,-1,-1;CREATED_DT "Created Date" false false false 8 Date 0 0 ,First,#,MetroCollaborativeParks_hennepin,CREATED_DT,-1,-1;SHAPE_Length "SHAPE_Length" false true true 8 Double 0 0 ,First,#,MetroCollaborativeParks_hennepin,SHAPE_Length,-1,-1;SHAPE_Area "SHAPE_Area" false true true 8 Double 0 0 ,First,#,MetroCollaborativeParks_hennepin,SHAPE_Area,-1,-1" #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.7\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20200205" Time="155219">Append MetroCollaborativeParks_ramsey MetroCollaborativeParks NO_TEST "PARKID "Park ID" true false false 16 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,PARKID,-1,-1;PARKNAME "Park Name" true false false 100 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,PARKNAME,-1,-1;NAME_ALT "Alternate Name" true true false 100 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,NAME_ALT,-1,-1;PARK_ADDR "Address" true false false 255 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,PARK_ADDR,-1,-1;CITY_MUNI "Municipality" true false false 50 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,CITY_MUNI,-1,-1;COUNTY "COUNTY" true false false 3 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,COUNTY,-1,-1;STATE "STATE" true false false 2 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,STATE,-1,-1;PARKSTATUS "Park Status" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,PARKSTATUS,-1,-1;WINTER_STS "Winter Status" true true false 7 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,WINTER_STS,-1,-1;FUNC_TYPE "Functional Type" true true false 100 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,FUNC_TYPE,-1,-1;LANDOWNER "LANDOWNER" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,LANDOWNER,-1,-1;OWNERTYPE "Landowner Type" true true false 2 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,OWNERTYPE,-1,-1;AGENCYNAME "Managing Agency" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,AGENCYNAME,-1,-1;AGENCYTYPE "Agency Type" true true false 2 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,AGENCYTYPE,-1,-1;YEAROPEN "Year Open" true true false 2 Short 0 0 ,First,#,MetroCollaborativeParks_ramsey,YEAROPEN,-1,-1;LANDCOVER "Land Cover" true true false 100 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,LANDCOVER,-1,-1;WATERACRES "Water Acres" true true false 8 Double 0 0 ,First,#,MetroCollaborativeParks_ramsey,WATERACRES,-1,-1;LAND_ACRES "Land Acres" true true false 8 Double 0 0 ,First,#,MetroCollaborativeParks_ramsey,LAND_ACRES,-1,-1;PARK_ACRES "Park Acres" true false false 8 Double 0 0 ,First,#,MetroCollaborativeParks_ramsey,PARK_ACRES,-1,-1;PLND_ACRES "Planned Park Acres" true true false 8 Double 0 0 ,First,#,MetroCollaborativeParks_ramsey,PLND_ACRES,-1,-1;TRL_MILES "Trail Miles" true true false 8 Double 0 0 ,First,#,MetroCollaborativeParks_ramsey,TRL_MILES,-1,-1;ACQSOURCE "Acquisition Source" true true false 75 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,ACQSOURCE,-1,-1;ACQMETHOD "Acquisition Method" true true false 75 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,ACQMETHOD,-1,-1;ACQCOMMENT "Acquisition Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,ACQCOMMENT,-1,-1;DEVSOURCE "Development Source" true true false 75 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,DEVSOURCE,-1,-1;DEVCOMMENT "Development Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,DEVCOMMENT,-1,-1;RESTRICTS "Restrictions" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,RESTRICTS,-1,-1;LWCFPROT "LWCF Protection" true true false 7 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,LWCFPROT,-1,-1;OTHERPROT "Other Protection" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,OTHERPROT,-1,-1;RESPRTCMNT "Restriction Protection Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,RESPRTCMNT,-1,-1;SERVICAREA "Service Area" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,SERVICAREA,-1,-1;MGMT_PRIOR "Management Priority" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,MGMT_PRIOR,-1,-1;VLTR_OPPS "Volunteer Opportunities" true true false 7 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,VLTR_OPPS,-1,-1;SPEC_FEAT "Special Feature" true true false 250 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,SPEC_FEAT,-1,-1;PARK_HOURS "Park Hours" true true false 75 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,PARK_HOURS,-1,-1;PKING_CAP "Parking Capacity" true true false 4 Long 0 0 ,First,#,MetroCollaborativeParks_ramsey,PKING_CAP,-1,-1;VISITORCTS "Visitor Counts" true true false 4 Long 0 0 ,First,#,MetroCollaborativeParks_ramsey,VISITORCTS,-1,-1;PASSHOLDER "Passholders" true true false 4 Long 0 0 ,First,#,MetroCollaborativeParks_ramsey,PASSHOLDER,-1,-1;PARK_EMAIL "Park Email Address" true true false 40 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,PARK_EMAIL,-1,-1;PARK_PHONE "Park Phone Number" true true false 40 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,PARK_PHONE,-1,-1;PARK_URL "Park URL" true true false 255 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,PARK_URL,-1,-1;MNTCEEMAIL "Maintenance Email Address" true true false 40 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,MNTCEEMAIL,-1,-1;MNTCEPHONE "Maintenance Phone Number" true true false 40 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,MNTCEPHONE,-1,-1;DATAAUTHOR "Data Author" true false false 50 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,DATAAUTHOR,-1,-1;EDITED_BY "Edited By" false false false 100 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,EDITED_BY,-1,-1;EDITED_DT "Edited Date" false false false 8 Date 0 0 ,First,#,MetroCollaborativeParks_ramsey,EDITED_DT,-1,-1;CREATED_BY "Created By" false false false 100 Text 0 0 ,First,#,MetroCollaborativeParks_ramsey,CREATED_BY,-1,-1;CREATED_DT "Created Date" false false false 8 Date 0 0 ,First,#,MetroCollaborativeParks_ramsey,CREATED_DT,-1,-1;SHAPE_Length "SHAPE_Length" false true true 8 Double 0 0 ,First,#,MetroCollaborativeParks_ramsey,SHAPE_Length,-1,-1;SHAPE_Area "SHAPE_Area" false true true 8 Double 0 0 ,First,#,MetroCollaborativeParks_ramsey,SHAPE_Area,-1,-1" #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.7\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20200205" Time="155245">Append MetroCollaborativeParks_scott MetroCollaborativeParks NO_TEST "PARKID "Park ID" true false false 16 Text 0 0 ,First,#,MetroCollaborativeParks_scott,PARKID,-1,-1;PARKNAME "Park Name" true false false 100 Text 0 0 ,First,#,MetroCollaborativeParks_scott,PARKNAME,-1,-1;NAME_ALT "Alternate Name" true true false 100 Text 0 0 ,First,#,MetroCollaborativeParks_scott,NAME_ALT,-1,-1;PARK_ADDR "Address" true false false 255 Text 0 0 ,First,#,MetroCollaborativeParks_scott,PARK_ADDR,-1,-1;CITY_MUNI "Municipality" true false false 50 Text 0 0 ,First,#,MetroCollaborativeParks_scott,CITY_MUNI,-1,-1;COUNTY "COUNTY" true false false 3 Text 0 0 ,First,#,MetroCollaborativeParks_scott,COUNTY,-1,-1;STATE "STATE" true false false 2 Text 0 0 ,First,#,MetroCollaborativeParks_scott,STATE,-1,-1;PARKSTATUS "Park Status" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks_scott,PARKSTATUS,-1,-1;WINTER_STS "Winter Status" true true false 7 Text 0 0 ,First,#,MetroCollaborativeParks_scott,WINTER_STS,-1,-1;FUNC_TYPE "Functional Type" true true false 100 Text 0 0 ,First,#,MetroCollaborativeParks_scott,FUNC_TYPE,-1,-1;LANDOWNER "LANDOWNER" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks_scott,LANDOWNER,-1,-1;OWNERTYPE "Landowner Type" true true false 2 Text 0 0 ,First,#,MetroCollaborativeParks_scott,OWNERTYPE,-1,-1;AGENCYNAME "Managing Agency" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks_scott,AGENCYNAME,-1,-1;AGENCYTYPE "Agency Type" true true false 2 Text 0 0 ,First,#,MetroCollaborativeParks_scott,AGENCYTYPE,-1,-1;YEAROPEN "Year Open" true true false 2 Short 0 0 ,First,#,MetroCollaborativeParks_scott,YEAROPEN,-1,-1;LANDCOVER "Land Cover" true true false 100 Text 0 0 ,First,#,MetroCollaborativeParks_scott,LANDCOVER,-1,-1;WATERACRES "Water Acres" true true false 8 Double 0 0 ,First,#,MetroCollaborativeParks_scott,WATERACRES,-1,-1;LAND_ACRES "Land Acres" true true false 8 Double 0 0 ,First,#,MetroCollaborativeParks_scott,LAND_ACRES,-1,-1;PARK_ACRES "Park Acres" true false false 8 Double 0 0 ,First,#,MetroCollaborativeParks_scott,PARK_ACRES,-1,-1;PLND_ACRES "Planned Park Acres" true true false 8 Double 0 0 ,First,#,MetroCollaborativeParks_scott,PLND_ACRES,-1,-1;TRL_MILES "Trail Miles" true true false 8 Double 0 0 ,First,#,MetroCollaborativeParks_scott,TRL_MILES,-1,-1;ACQSOURCE "Acquisition Source" true true false 75 Text 0 0 ,First,#,MetroCollaborativeParks_scott,ACQSOURCE,-1,-1;ACQMETHOD "Acquisition Method" true true false 75 Text 0 0 ,First,#,MetroCollaborativeParks_scott,ACQMETHOD,-1,-1;ACQCOMMENT "Acquisition Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks_scott,ACQCOMMENT,-1,-1;DEVSOURCE "Development Source" true true false 75 Text 0 0 ,First,#,MetroCollaborativeParks_scott,DEVSOURCE,-1,-1;DEVCOMMENT "Development Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks_scott,DEVCOMMENT,-1,-1;RESTRICTS "Restrictions" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks_scott,RESTRICTS,-1,-1;LWCFPROT "LWCF Protection" true true false 7 Text 0 0 ,First,#,MetroCollaborativeParks_scott,LWCFPROT,-1,-1;OTHERPROT "Other Protection" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks_scott,OTHERPROT,-1,-1;RESPRTCMNT "Restriction Protection Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks_scott,RESPRTCMNT,-1,-1;SERVICAREA "Service Area" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks_scott,SERVICAREA,-1,-1;MGMT_PRIOR "Management Priority" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks_scott,MGMT_PRIOR,-1,-1;VLTR_OPPS "Volunteer Opportunities" true true false 7 Text 0 0 ,First,#,MetroCollaborativeParks_scott,VLTR_OPPS,-1,-1;SPEC_FEAT "Special Feature" true true false 250 Text 0 0 ,First,#,MetroCollaborativeParks_scott,SPEC_FEAT,-1,-1;PARK_HOURS "Park Hours" true true false 75 Text 0 0 ,First,#,MetroCollaborativeParks_scott,PARK_HOURS,-1,-1;PKING_CAP "Parking Capacity" true true false 4 Long 0 0 ,First,#,MetroCollaborativeParks_scott,PKING_CAP,-1,-1;VISITORCTS "Visitor Counts" true true false 4 Long 0 0 ,First,#,MetroCollaborativeParks_scott,VISITORCTS,-1,-1;PASSHOLDER "Passholders" true true false 4 Long 0 0 ,First,#,MetroCollaborativeParks_scott,PASSHOLDER,-1,-1;PARK_EMAIL "Park Email Address" true true false 40 Text 0 0 ,First,#,MetroCollaborativeParks_scott,PARK_EMAIL,-1,-1;PARK_PHONE "Park Phone Number" true true false 40 Text 0 0 ,First,#,MetroCollaborativeParks_scott,PARK_PHONE,-1,-1;PARK_URL "Park URL" true true false 255 Text 0 0 ,First,#,MetroCollaborativeParks_scott,PARK_URL,-1,-1;MNTCEEMAIL "Maintenance Email Address" true true false 40 Text 0 0 ,First,#,MetroCollaborativeParks_scott,MNTCEEMAIL,-1,-1;MNTCEPHONE "Maintenance Phone Number" true true false 40 Text 0 0 ,First,#,MetroCollaborativeParks_scott,MNTCEPHONE,-1,-1;DATAAUTHOR "Data Author" true false false 50 Text 0 0 ,First,#,MetroCollaborativeParks_scott,DATAAUTHOR,-1,-1;EDITED_BY "Edited By" false false false 100 Text 0 0 ,First,#,MetroCollaborativeParks_scott,EDITED_BY,-1,-1;EDITED_DT "Edited Date" false false false 8 Date 0 0 ,First,#,MetroCollaborativeParks_scott,EDITED_DT,-1,-1;CREATED_BY "Created By" false false false 100 Text 0 0 ,First,#,MetroCollaborativeParks_scott,CREATED_BY,-1,-1;CREATED_DT "Created Date" false false false 8 Date 0 0 ,First,#,MetroCollaborativeParks_scott,CREATED_DT,-1,-1;SHAPE_Length "SHAPE_Length" false true true 8 Double 0 0 ,First,#,MetroCollaborativeParks_scott,SHAPE_Length,-1,-1;SHAPE_Area "SHAPE_Area" false true true 8 Double 0 0 ,First,#,MetroCollaborativeParks_scott,SHAPE_Area,-1,-1" #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.7\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20200205" Time="155311">Append MetroCollaborativeParks_washington MetroCollaborativeParks NO_TEST "PARKID "Park ID" true false false 16 Text 0 0 ,First,#,MetroCollaborativeParks_washington,PARKID,-1,-1;PARKNAME "Park Name" true false false 100 Text 0 0 ,First,#,MetroCollaborativeParks_washington,PARKNAME,-1,-1;NAME_ALT "Alternate Name" true true false 100 Text 0 0 ,First,#,MetroCollaborativeParks_washington,NAME_ALT,-1,-1;PARK_ADDR "Address" true false false 255 Text 0 0 ,First,#,MetroCollaborativeParks_washington,PARK_ADDR,-1,-1;CITY_MUNI "Municipality" true false false 50 Text 0 0 ,First,#,MetroCollaborativeParks_washington,CITY_MUNI,-1,-1;COUNTY "COUNTY" true false false 3 Text 0 0 ,First,#,MetroCollaborativeParks_washington,COUNTY,-1,-1;STATE "STATE" true false false 2 Text 0 0 ,First,#,MetroCollaborativeParks_washington,STATE,-1,-1;PARKSTATUS "Park Status" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks_washington,PARKSTATUS,-1,-1;WINTER_STS "Winter Status" true true false 7 Text 0 0 ,First,#,MetroCollaborativeParks_washington,WINTER_STS,-1,-1;FUNC_TYPE "Functional Type" true true false 100 Text 0 0 ,First,#,MetroCollaborativeParks_washington,FUNC_TYPE,-1,-1;LANDOWNER "LANDOWNER" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks_washington,LANDOWNER,-1,-1;OWNERTYPE "Landowner Type" true true false 2 Text 0 0 ,First,#,MetroCollaborativeParks_washington,OWNERTYPE,-1,-1;AGENCYNAME "Managing Agency" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks_washington,AGENCYNAME,-1,-1;AGENCYTYPE "Agency Type" true true false 2 Text 0 0 ,First,#,MetroCollaborativeParks_washington,AGENCYTYPE,-1,-1;YEAROPEN "Year Open" true true false 2 Short 0 0 ,First,#,MetroCollaborativeParks_washington,YEAROPEN,-1,-1;LANDCOVER "Land Cover" true true false 100 Text 0 0 ,First,#,MetroCollaborativeParks_washington,LANDCOVER,-1,-1;WATERACRES "Water Acres" true true false 8 Double 0 0 ,First,#,MetroCollaborativeParks_washington,WATERACRES,-1,-1;LAND_ACRES "Land Acres" true true false 8 Double 0 0 ,First,#,MetroCollaborativeParks_washington,LAND_ACRES,-1,-1;PARK_ACRES "Park Acres" true false false 8 Double 0 0 ,First,#,MetroCollaborativeParks_washington,PARK_ACRES,-1,-1;PLND_ACRES "Planned Park Acres" true true false 8 Double 0 0 ,First,#,MetroCollaborativeParks_washington,PLND_ACRES,-1,-1;TRL_MILES "Trail Miles" true true false 8 Double 0 0 ,First,#,MetroCollaborativeParks_washington,TRL_MILES,-1,-1;ACQSOURCE "Acquisition Source" true true false 75 Text 0 0 ,First,#,MetroCollaborativeParks_washington,ACQSOURCE,-1,-1;ACQMETHOD "Acquisition Method" true true false 75 Text 0 0 ,First,#,MetroCollaborativeParks_washington,ACQMETHOD,-1,-1;ACQCOMMENT "Acquisition Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks_washington,ACQCOMMENT,-1,-1;DEVSOURCE "Development Source" true true false 75 Text 0 0 ,First,#,MetroCollaborativeParks_washington,DEVSOURCE,-1,-1;DEVCOMMENT "Development Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks_washington,DEVCOMMENT,-1,-1;RESTRICTS "Restrictions" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks_washington,RESTRICTS,-1,-1;LWCFPROT "LWCF Protection" true true false 7 Text 0 0 ,First,#,MetroCollaborativeParks_washington,LWCFPROT,-1,-1;OTHERPROT "Other Protection" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks_washington,OTHERPROT,-1,-1;RESPRTCMNT "Restriction Protection Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks_washington,RESPRTCMNT,-1,-1;SERVICAREA "Service Area" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks_washington,SERVICAREA,-1,-1;MGMT_PRIOR "Management Priority" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks_washington,MGMT_PRIOR,-1,-1;VLTR_OPPS "Volunteer Opportunities" true true false 7 Text 0 0 ,First,#,MetroCollaborativeParks_washington,VLTR_OPPS,-1,-1;SPEC_FEAT "Special Feature" true true false 250 Text 0 0 ,First,#,MetroCollaborativeParks_washington,SPEC_FEAT,-1,-1;PARK_HOURS "Park Hours" true true false 75 Text 0 0 ,First,#,MetroCollaborativeParks_washington,PARK_HOURS,-1,-1;PKING_CAP "Parking Capacity" true true false 4 Long 0 0 ,First,#,MetroCollaborativeParks_washington,PKING_CAP,-1,-1;VISITORCTS "Visitor Counts" true true false 4 Long 0 0 ,First,#,MetroCollaborativeParks_washington,VISITORCTS,-1,-1;PASSHOLDER "Passholders" true true false 4 Long 0 0 ,First,#,MetroCollaborativeParks_washington,PASSHOLDER,-1,-1;PARK_EMAIL "Park Email Address" true true false 40 Text 0 0 ,First,#,MetroCollaborativeParks_washington,PARK_EMAIL,-1,-1;PARK_PHONE "Park Phone Number" true true false 40 Text 0 0 ,First,#,MetroCollaborativeParks_washington,PARK_PHONE,-1,-1;PARK_URL "Park URL" true true false 255 Text 0 0 ,First,#,MetroCollaborativeParks_washington,PARK_URL,-1,-1;MNTCEEMAIL "Maintenance Email Address" true true false 40 Text 0 0 ,First,#,MetroCollaborativeParks_washington,MNTCEEMAIL,-1,-1;MNTCEPHONE "Maintenance Phone Number" true true false 40 Text 0 0 ,First,#,MetroCollaborativeParks_washington,MNTCEPHONE,-1,-1;DATAAUTHOR "Data Author" true false false 50 Text 0 0 ,First,#,MetroCollaborativeParks_washington,DATAAUTHOR,-1,-1;EDITED_BY "Edited By" false false false 100 Text 0 0 ,First,#,MetroCollaborativeParks_washington,EDITED_BY,-1,-1;EDITED_DT "Edited Date" false false false 8 Date 0 0 ,First,#,MetroCollaborativeParks_washington,EDITED_DT,-1,-1;CREATED_BY "Created By" false false false 100 Text 0 0 ,First,#,MetroCollaborativeParks_washington,CREATED_BY,-1,-1;CREATED_DT "Created Date" false false false 8 Date 0 0 ,First,#,MetroCollaborativeParks_washington,CREATED_DT,-1,-1;SHAPE_Length "SHAPE_Length" false true true 8 Double 0 0 ,First,#,MetroCollaborativeParks_washington,SHAPE_Length,-1,-1;SHAPE_Area "SHAPE_Area" false true true 8 Double 0 0 ,First,#,MetroCollaborativeParks_washington,SHAPE_Area,-1,-1" #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.7\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20200210" Time="105824">FeatureClassToFeatureClass MetroCollaborativeParks "Database Connections\Connection to dbsqlcl10t.test.local.sde\GISLibrary.DBO.ParksAndRecreation" MetroCollaborativeParks # "PARKID "Park ID" true true false 16 Text 0 0 ,First,#,MetroCollaborativeParks,PARKID,-1,-1;PARKNAME "Park Name" true true false 100 Text 0 0 ,First,#,MetroCollaborativeParks,PARKNAME,-1,-1;NAME_ALT "Alternate Name" true true false 100 Text 0 0 ,First,#,MetroCollaborativeParks,NAME_ALT,-1,-1;PARK_ADDR "Address" true true false 255 Text 0 0 ,First,#,MetroCollaborativeParks,PARK_ADDR,-1,-1;CITY_MUNI "Municipality" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks,CITY_MUNI,-1,-1;COUNTY "County" true true false 3 Text 0 0 ,First,#,MetroCollaborativeParks,COUNTY,-1,-1;STATE "State" true true false 2 Text 0 0 ,First,#,MetroCollaborativeParks,STATE,-1,-1;PARKSTATUS "Park Status" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks,PARKSTATUS,-1,-1;WINTER_STS "Winter Status" true true false 7 Text 0 0 ,First,#,MetroCollaborativeParks,WINTER_STS,-1,-1;FUNC_TYPE "Functional Type" true true false 100 Text 0 0 ,First,#,MetroCollaborativeParks,FUNC_TYPE,-1,-1;LANDOWNER "Landowner" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks,LANDOWNER,-1,-1;OWNERTYPE "Landowner Type" true true false 2 Text 0 0 ,First,#,MetroCollaborativeParks,OWNERTYPE,-1,-1;AGENCYNAME "Managing Agency" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks,AGENCYNAME,-1,-1;AGENCYTYPE "Agency Type" true true false 2 Text 0 0 ,First,#,MetroCollaborativeParks,AGENCYTYPE,-1,-1;YEAROPEN "Year Open" true true false 2 Short 0 0 ,First,#,MetroCollaborativeParks,YEAROPEN,-1,-1;LANDCOVER "Land Cover" true true false 100 Text 0 0 ,First,#,MetroCollaborativeParks,LANDCOVER,-1,-1;WATERACRES "Water Acres" true true false 8 Double 0 0 ,First,#,MetroCollaborativeParks,WATERACRES,-1,-1;LAND_ACRES "Land Acres" true true false 8 Double 0 0 ,First,#,MetroCollaborativeParks,LAND_ACRES,-1,-1;PARK_ACRES "Park Acres" true true false 8 Double 0 0 ,First,#,MetroCollaborativeParks,PARK_ACRES,-1,-1;PLND_ACRES "Planned Park Acres" true true false 8 Double 0 0 ,First,#,MetroCollaborativeParks,PLND_ACRES,-1,-1;TRL_MILES "Trail Miles" true true false 8 Double 0 0 ,First,#,MetroCollaborativeParks,TRL_MILES,-1,-1;ACQSOURCE "Acquisition Source" true true false 75 Text 0 0 ,First,#,MetroCollaborativeParks,ACQSOURCE,-1,-1;ACQMETHOD "Acquisition Method" true true false 75 Text 0 0 ,First,#,MetroCollaborativeParks,ACQMETHOD,-1,-1;ACQCOMMENT "Acquisition Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks,ACQCOMMENT,-1,-1;DEVSOURCE "Development Source" true true false 75 Text 0 0 ,First,#,MetroCollaborativeParks,DEVSOURCE,-1,-1;DEVCOMMENT "Development Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks,DEVCOMMENT,-1,-1;RESTRICTS "Restrictions" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks,RESTRICTS,-1,-1;LWCFPROT "LWCF Protection" true true false 7 Text 0 0 ,First,#,MetroCollaborativeParks,LWCFPROT,-1,-1;OTHERPROT "Other Protection" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks,OTHERPROT,-1,-1;RESPRTCMNT "Restriction Protection Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeParks,RESPRTCMNT,-1,-1;SERVICAREA "Service Area" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks,SERVICAREA,-1,-1;MGMT_PRIOR "Management Priority" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks,MGMT_PRIOR,-1,-1;VLTR_OPPS "Volunteer Opportunities" true true false 7 Text 0 0 ,First,#,MetroCollaborativeParks,VLTR_OPPS,-1,-1;SPEC_FEAT "Special Feature" true true false 250 Text 0 0 ,First,#,MetroCollaborativeParks,SPEC_FEAT,-1,-1;PARK_HOURS "Park Hours" true true false 75 Text 0 0 ,First,#,MetroCollaborativeParks,PARK_HOURS,-1,-1;PKING_CAP "Parking Capacity" true true false 4 Long 0 0 ,First,#,MetroCollaborativeParks,PKING_CAP,-1,-1;VISITORCTS "Visitor Counts" true true false 4 Long 0 0 ,First,#,MetroCollaborativeParks,VISITORCTS,-1,-1;PASSHOLDER "Passholders" true true false 4 Long 0 0 ,First,#,MetroCollaborativeParks,PASSHOLDER,-1,-1;PARK_EMAIL "Park Email Address" true true false 40 Text 0 0 ,First,#,MetroCollaborativeParks,PARK_EMAIL,-1,-1;PARK_PHONE "Park Phone Number" true true false 40 Text 0 0 ,First,#,MetroCollaborativeParks,PARK_PHONE,-1,-1;PARK_URL "Park URL" true true false 255 Text 0 0 ,First,#,MetroCollaborativeParks,PARK_URL,-1,-1;MNTCEEMAIL "Maintenance Email Address" true true false 40 Text 0 0 ,First,#,MetroCollaborativeParks,MNTCEEMAIL,-1,-1;MNTCEPHONE "Maintenance Phone Number" true true false 40 Text 0 0 ,First,#,MetroCollaborativeParks,MNTCEPHONE,-1,-1;DATAAUTHOR "Data Author" true true false 50 Text 0 0 ,First,#,MetroCollaborativeParks,DATAAUTHOR,-1,-1;EDITED_BY "Edited By" false true false 100 Text 0 0 ,First,#,MetroCollaborativeParks,EDITED_BY,-1,-1;EDITED_DT "Edited Date" false true false 8 Date 0 0 ,First,#,MetroCollaborativeParks,EDITED_DT,-1,-1;CREATED_BY "Created By" false true false 100 Text 0 0 ,First,#,MetroCollaborativeParks,CREATED_BY,-1,-1;CREATED_DT "Created Date" false true false 8 Date 0 0 ,First,#,MetroCollaborativeParks,CREATED_DT,-1,-1;SHAPE_Length "SHAPE_Length" false true true 8 Double 0 0 ,First,#,MetroCollaborativeParks,SHAPE_Length,-1,-1;SHAPE_Area "SHAPE_Area" false true true 8 Double 0 0 ,First,#,MetroCollaborativeParks,SHAPE_Area,-1,-1" #</Process>
+				<Process ToolSource="C:\program files\arcgis\server\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20220629" Time="234657">FeatureClassToFeatureClass /var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks /var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\shp MetroCollaborativeParks.shp # "PARKID "Park ID" true true false 16 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,PARKID,-1,-1;PARKNAME "Park Name" true true false 100 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,PARKNAME,-1,-1;NAME_ALT "Alternate Name" true true false 100 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,NAME_ALT,-1,-1;PARK_ADDR "Address" true true false 255 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,PARK_ADDR,-1,-1;CITY_MUNI "Municipality" true true false 50 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,CITY_MUNI,-1,-1;COUNTY "County" true true false 3 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,COUNTY,-1,-1;STATE "State" true true false 2 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,STATE,-1,-1;PARKSTATUS "Park Status" true true false 50 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,PARKSTATUS,-1,-1;WINTER_STS "Winter Status" true true false 7 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,WINTER_STS,-1,-1;FUNC_TYPE "Functional Type" true true false 100 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,FUNC_TYPE,-1,-1;LANDOWNER "Landowner" true true false 150 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,LANDOWNER,-1,-1;OWNERTYPE "Landowner Type" true true false 2 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,OWNERTYPE,-1,-1;AGENCYNAME "Managing Agency" true true false 150 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,AGENCYNAME,-1,-1;AGENCYTYPE "Agency Type" true true false 2 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,AGENCYTYPE,-1,-1;YEAROPEN "Year Open" true true false 2 Short 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,YEAROPEN,-1,-1;LANDCOVER "Land Cover" true true false 100 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,LANDCOVER,-1,-1;WATERACRES "Water Acres" true true false 8 Double 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,WATERACRES,-1,-1;LAND_ACRES "Land Acres" true true false 8 Double 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,LAND_ACRES,-1,-1;PARK_ACRES "Park Acres" true true false 8 Double 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,PARK_ACRES,-1,-1;PLND_ACRES "Planned Park Acres" true true false 8 Double 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,PLND_ACRES,-1,-1;TRL_MILES "Trail Miles" true true false 8 Double 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,TRL_MILES,-1,-1;ACQSOURCE "Acquisition Source" true true false 75 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,ACQSOURCE,-1,-1;ACQMETHOD "Acquisition Method" true true false 75 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,ACQMETHOD,-1,-1;ACQCOMMENT "Acquisition Comment" true true false 150 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,ACQCOMMENT,-1,-1;DEVSOURCE "Development Source" true true false 75 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,DEVSOURCE,-1,-1;DEVCOMMENT "Development Comment" true true false 150 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,DEVCOMMENT,-1,-1;RESTRICTS "Restrictions" true true false 50 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,RESTRICTS,-1,-1;LWCFPROT "LWCF Protection" true true false 7 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,LWCFPROT,-1,-1;OTHERPROT "Other Protection" true true false 50 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,OTHERPROT,-1,-1;RESPRTCMNT "Restriction Protection Comment" true true false 150 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,RESPRTCMNT,-1,-1;SERVICAREA "Service Area" true true false 50 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,SERVICAREA,-1,-1;MGMT_PRIOR "Management Priority" true true false 50 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,MGMT_PRIOR,-1,-1;VLTR_OPPS "Volunteer Opportunities" true true false 7 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,VLTR_OPPS,-1,-1;SPEC_FEAT "Special Feature" true true false 250 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,SPEC_FEAT,-1,-1;PARK_HOURS "Park Hours" true true false 75 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,PARK_HOURS,-1,-1;PKING_CAP "Parking Capacity" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,PKING_CAP,-1,-1;VISITORCTS "Visitor Counts" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,VISITORCTS,-1,-1;PASSHOLDER "Passholders" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,PASSHOLDER,-1,-1;PARK_EMAIL "Park Email Address" true true false 40 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,PARK_EMAIL,-1,-1;PARK_PHONE "Park Phone Number" true true false 40 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,PARK_PHONE,-1,-1;PARK_URL "Park URL" true true false 255 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,PARK_URL,-1,-1;MNTCEEMAIL "Maintenance Email Address" true true false 40 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,MNTCEEMAIL,-1,-1;MNTCEPHONE "Maintenance Phone Number" true true false 40 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,MNTCEPHONE,-1,-1;DATAAUTHOR "Data Author" true true false 50 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,DATAAUTHOR,-1,-1;EDITED_BY "Edited By" true true false 100 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,EDITED_BY,-1,-1;EDITED_DT "Edited Date" true true false 8 Date 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,EDITED_DT,-1,-1;CREATED_BY "Created By" true true false 100 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,CREATED_BY,-1,-1;CREATED_DT "Created Date" true true false 8 Date 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,CREATED_DT,-1,-1;Shape_Leng "Shape_Leng" false true true 8 Double 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,Shape_Length,-1,-1;Shape_Area "Shape_Area" false true true 8 Double 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\fgdb\bdry_metro_colabtiv_parks.gdb\MetroCollaborativeParks,Shape_Area,-1,-1" #</Process>
+			</lineage>
+			<itemProps>
+				<itemName Sync="TRUE">MetroCollaborativeParks</itemName>
+				<imsContentType Sync="TRUE">002</imsContentType>
+				<nativeExtBox>
+					<westBL Sync="TRUE">423198.834100</westBL>
+					<eastBL Sync="TRUE">519431.691700</eastBL>
+					<southBL Sync="TRUE">4924288.003500</southBL>
+					<northBL Sync="TRUE">5028998.822700</northBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+				</nativeExtBox>
+				<itemLocation>
+					<linkage Sync="TRUE">file://\\g46palgdrftp001\Z\var\ftp\gdrs_temp\update\us_mn_state_metrogis\bdry_metro_colabtiv_parks\shp\MetroCollaborativeParks.shp</linkage>
+					<protocol Sync="TRUE">Local Area Network</protocol>
+				</itemLocation>
+				<itemSize Sync="TRUE">0.000</itemSize>
+			</itemProps>
+			<coordRef>
+				<type Sync="TRUE">Projected</type>
+				<geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+				<csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits>
+				<projcsn Sync="TRUE">NAD_1983_UTM_Zone_15N</projcsn>
+				<peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.4'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_UTM_Zone_15N&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Transverse_Mercator&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,500000.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-93.0],PARAMETER[&amp;quot;Scale_Factor&amp;quot;,0.9996],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,0.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,26915]]&lt;/WKT&gt;&lt;XOrigin&gt;-5120900&lt;/XOrigin&gt;&lt;YOrigin&gt;-9998100&lt;/YOrigin&gt;&lt;XYScale&gt;450445547.3910538&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;26915&lt;/WKID&gt;&lt;LatestWKID&gt;26915&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml>
+			</coordRef>
+		</DataProperties>
+		<SyncDate>20220629</SyncDate>
+		<SyncTime>23465600</SyncTime>
+		<ModDate>20220629</ModDate>
+		<ModTime>23465600</ModTime>
+	</Esri>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE">Microsoft Windows XP Professional x64 Edition Version 5.2 (Build 3790) Service Pack 2; Esri ArcGIS 10.4.1.5686</envirDesc>
+		<dataLang>
+			<languageCode value="en" Sync="TRUE"/>
+			<countryCode value="US" Sync="TRUE"/>
+		</dataLang>
+		<idCitation>
+			<resTitle Sync="TRUE">MetroCollaborativeParks</resTitle>
+			<presForm>
+				<PresFormCd value="005" Sync="TRUE"/>
+			</presForm>
+		</idCitation>
+		<spatRpType>
+			<SpatRepTypCd value="001" Sync="TRUE"/>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="search">
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+					<westBL Sync="TRUE">-93.981476</westBL>
+					<eastBL Sync="TRUE">-92.751657</eastBL>
+					<northBL Sync="TRUE">45.414509</northBL>
+					<southBL Sync="TRUE">44.467820</southBL>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+	</dataIdInfo>
+	<mdLang>
+		<languageCode value="en" Sync="TRUE"/>
+		<countryCode value="US" Sync="TRUE"/>
+	</mdLang>
+	<distInfo>
+		<distFormat>
+			<formatName Sync="TRUE">Shapefile</formatName>
+		</distFormat>
+		<distTranOps>
+			<transSize Sync="TRUE">0.000</transSize>
+		</distTranOps>
+	</distInfo>
+	<mdHrLv>
+		<ScopeCd value="005" Sync="TRUE"/>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode code="26915" Sync="TRUE"/>
+				<idCodeSpace Sync="TRUE">EPSG</idCodeSpace>
+				<idVersion Sync="TRUE">6.13(3.0.1)</idVersion>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<geometObjs Name="MetroCollaborativeParks">
+				<geoObjTyp>
+					<GeoObjTypCd value="002" Sync="TRUE"/>
+				</geoObjTyp>
+				<geoObjCnt Sync="TRUE">0</geoObjCnt>
+			</geometObjs>
+			<topLvl>
+				<TopoLevCd value="001" Sync="TRUE"/>
+			</topLvl>
+		</VectSpatRep>
+	</spatRepInfo>
+	<spdoinfo>
+		<ptvctinf>
+			<esriterm Name="MetroCollaborativeParks">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<efeageom code="4" Sync="TRUE"/>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<efeacnt Sync="TRUE">0</efeacnt>
+				<spindex Sync="TRUE">FALSE</spindex>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+			</esriterm>
+		</ptvctinf>
+	</spdoinfo>
+	<eainfo>
+		<detailed Name="MetroCollaborativeParks">
+			<enttyp>
+				<enttypl Sync="TRUE">MetroCollaborativeParks</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">0</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">FID</attrlabl>
+				<attalias Sync="TRUE">FID</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">Esri</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE</attrlabl>
+				<attalias Sync="TRUE">Shape</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">Esri</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PARKID</attrlabl>
+				<attalias Sync="TRUE">PARKID</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">16</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PARKNAME</attrlabl>
+				<attalias Sync="TRUE">PARKNAME</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">100</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NAME_ALT</attrlabl>
+				<attalias Sync="TRUE">NAME_ALT</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">100</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PARK_ADDR</attrlabl>
+				<attalias Sync="TRUE">PARK_ADDR</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">254</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CITY_MUNI</attrlabl>
+				<attalias Sync="TRUE">CITY_MUNI</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">COUNTY</attrlabl>
+				<attalias Sync="TRUE">COUNTY</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">STATE</attrlabl>
+				<attalias Sync="TRUE">STATE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PARKSTATUS</attrlabl>
+				<attalias Sync="TRUE">PARKSTATUS</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">WINTER_STS</attrlabl>
+				<attalias Sync="TRUE">WINTER_STS</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">7</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FUNC_TYPE</attrlabl>
+				<attalias Sync="TRUE">FUNC_TYPE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">100</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LANDOWNER</attrlabl>
+				<attalias Sync="TRUE">LANDOWNER</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">150</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">OWNERTYPE</attrlabl>
+				<attalias Sync="TRUE">OWNERTYPE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AGENCYNAME</attrlabl>
+				<attalias Sync="TRUE">AGENCYNAME</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">150</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AGENCYTYPE</attrlabl>
+				<attalias Sync="TRUE">AGENCYTYPE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">YEAROPEN</attrlabl>
+				<attalias Sync="TRUE">YEAROPEN</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">5</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LANDCOVER</attrlabl>
+				<attalias Sync="TRUE">LANDCOVER</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">100</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">WATERACRES</attrlabl>
+				<attalias Sync="TRUE">WATERACRES</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LAND_ACRES</attrlabl>
+				<attalias Sync="TRUE">LAND_ACRES</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PARK_ACRES</attrlabl>
+				<attalias Sync="TRUE">PARK_ACRES</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PLND_ACRES</attrlabl>
+				<attalias Sync="TRUE">PLND_ACRES</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">TRL_MILES</attrlabl>
+				<attalias Sync="TRUE">TRL_MILES</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ACQSOURCE</attrlabl>
+				<attalias Sync="TRUE">ACQSOURCE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">75</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ACQMETHOD</attrlabl>
+				<attalias Sync="TRUE">ACQMETHOD</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">75</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ACQCOMMENT</attrlabl>
+				<attalias Sync="TRUE">ACQCOMMENT</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">150</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">DEVSOURCE</attrlabl>
+				<attalias Sync="TRUE">DEVSOURCE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">75</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">DEVCOMMENT</attrlabl>
+				<attalias Sync="TRUE">DEVCOMMENT</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">150</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">RESTRICTS</attrlabl>
+				<attalias Sync="TRUE">RESTRICTS</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LWCFPROT</attrlabl>
+				<attalias Sync="TRUE">LWCFPROT</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">7</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">OTHERPROT</attrlabl>
+				<attalias Sync="TRUE">OTHERPROT</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">RESPRTCMNT</attrlabl>
+				<attalias Sync="TRUE">RESPRTCMNT</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">150</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SERVICAREA</attrlabl>
+				<attalias Sync="TRUE">SERVICAREA</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">MGMT_PRIOR</attrlabl>
+				<attalias Sync="TRUE">MGMT_PRIOR</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">VLTR_OPPS</attrlabl>
+				<attalias Sync="TRUE">VLTR_OPPS</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">7</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SPEC_FEAT</attrlabl>
+				<attalias Sync="TRUE">SPEC_FEAT</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">250</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PARK_HOURS</attrlabl>
+				<attalias Sync="TRUE">PARK_HOURS</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">75</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PKING_CAP</attrlabl>
+				<attalias Sync="TRUE">PKING_CAP</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">VISITORCTS</attrlabl>
+				<attalias Sync="TRUE">VISITORCTS</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PASSHOLDER</attrlabl>
+				<attalias Sync="TRUE">PASSHOLDER</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PARK_EMAIL</attrlabl>
+				<attalias Sync="TRUE">PARK_EMAIL</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">40</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PARK_PHONE</attrlabl>
+				<attalias Sync="TRUE">PARK_PHONE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">40</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PARK_URL</attrlabl>
+				<attalias Sync="TRUE">PARK_URL</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">254</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">MNTCEEMAIL</attrlabl>
+				<attalias Sync="TRUE">MNTCEEMAIL</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">40</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">MNTCEPHONE</attrlabl>
+				<attalias Sync="TRUE">MNTCEPHONE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">40</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">DATAAUTHOR</attrlabl>
+				<attalias Sync="TRUE">DATAAUTHOR</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">EDITED_BY</attrlabl>
+				<attalias Sync="TRUE">EDITED_BY</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">100</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">EDITED_DT</attrlabl>
+				<attalias Sync="TRUE">EDITED_DT</attalias>
+				<attrtype Sync="TRUE">Date</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CREATED_BY</attrlabl>
+				<attalias Sync="TRUE">CREATED_BY</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">100</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CREATED_DT</attrlabl>
+				<attalias Sync="TRUE">CREATED_DT</attalias>
+				<attrtype Sync="TRUE">Date</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape_Leng</attrlabl>
+				<attalias Sync="TRUE">Shape_Leng</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape_Area</attrlabl>
+				<attalias Sync="TRUE">Shape_Area</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef>
+				<attrdefs Sync="TRUE">Esri</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+		</detailed>
+	</eainfo>
+	<mdDateSt Sync="TRUE">20220629</mdDateSt>
+</metadata>

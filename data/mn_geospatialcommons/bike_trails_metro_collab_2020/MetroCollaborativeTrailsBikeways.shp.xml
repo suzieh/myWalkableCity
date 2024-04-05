@@ -1,0 +1,703 @@
+<metadata xml:lang="en">
+	<Esri>
+		<CreaDate>20200210</CreaDate>
+		<CreaTime>08514000</CreaTime>
+		<ArcGISFormat>1.0</ArcGISFormat>
+		<SyncOnce>FALSE</SyncOnce>
+		<DataProperties>
+			<lineage>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20190618" Time="125927">Append MetroCollaborativeTrailsBikeways TRAILS_BIKEWAYS_v1_2 NO_TEST "UNIQUE_ID "Feature Unique ID" true false false 36 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,UNIQUE_ID,-1,-1;TRAILNAME "Trail Name" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,TRAILNAME,-1,-1;TRLSYSNAME "Trail System Name" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,TRLSYTNAME,-1,-1;SHAREDNAME "Shared Name" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,SHAREDNAME,-1,-1;FED_SYS "Federal System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,FED_SYS,-1,-1;NTL_SYS "National Designation" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,NTL_SYS,-1,-1;STATE_SYS "State System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,STATE_SYS,-1,-1;REG_SYS "Regional System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,REG_SYS,-1,-1;CTY_SYS "County System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,CTY_SYS,-1,-1;LOC_SYS "Local System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,LOC_SYS,-1,-1;TRBL_SYS "Tribal System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,TRBL_SYS,-1,-1;PRVTE_SYS "Private System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,PRVTE_SYS,-1,-1;PROT_SYS "Protected System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,PROT_SYS,-1,-1;GEN_TYPE "General Route Type" true true false 15 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,GEN_TYPE,-1,-1;SUMMER_USE "Summer Use" true true false 75 Text 0 0 ,First,#;WINTER_USE "Winter Use" true true false 75 Text 0 0 ,First,#;LANDOWNER "Landowner" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,LANDOWNER,-1,-1;OWNERTYPE "Landowner Type" true true false 2 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,OWNERTYPE,-1,-1;AGENCYNAME "Managing Agency" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,AGENCYNAME,-1,-1;AGCY_TYPE "Agency Type" true true false 2 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,AGCY_TYPE,-1,-1;CITY_MUNI "Municipality" true false false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,CITY_MUNI,-1,-1;COUNTY "County" true false false 3 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,COUNTY,-1,-1;STATE "State" true false false 2 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,STATE,-1,-1;PARKID "Park ID" true true false 16 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,PARKID,-1,-1;TRLSTATUS "Trail Status" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,TRLSTATUS,-1,-1;SURFACETYP "Surface Type" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,SURFACETYP,-1,-1;CONDITION "Condition" true true false 20 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,CONDITION,-1,-1;PARL_RD "Parallel Road" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,PARL_RD,-1,-1;ALTPARLRD "Alt Parallel Road Name" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,ALTPARLRD,-1,-1;YEAR_PRGRM "Year Programmed" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways,YEAR_PRGRM,-1,-1;YEAR_OPEN "Year Open" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways,YEAR_OPEN,-1,-1;LENGTH "Length" true false false 8 Double 0 0 ,First,#,MetroCollaborativeTrailsBikeways,LENGTH,-1,-1;WIDTH "Width" true true false 8 Double 0 0 ,First,#,MetroCollaborativeTrailsBikeways,WIDTH,-1,-1;SIDESTREET "Side On Street" true true false 10 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,SIDESTREET,-1,-1;PRD_SPEED "Parallel Road Speed Limit" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways,PRD_SPEED,-1,-1;RTE_SPEED "Speed Limit of Trail/Bikeway" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways,RTE_SPEED,-1,-1;DIRECTION "Route Direction" true true false 10 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,DIRECTION,-1,-1;RBTN "Regional Bike Transportation Network" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,RBTN,-1,-1;DIFFRTG "Difficulty Rating" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,DIFFRTG,-1,-1;ACCESS_STS "ADA Accessibility Status" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,ACCESS_STS,-1,-1;SEASNL_ACC "Seasonable Accessibility" true true false 20 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,SEASNL_ACC,-1,-1;MOTOR_USE "Motorized Use" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,MOTOR_USE,-1,-1;MNTSUMMER "Summer Maintenance" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,MNTSUMMER,-1,-1;MNTWINTER "Winter Maintenance" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,MNTWINTER,-1,-1;PVMNTYEAR "Year of Most Recent Pavement Maintenance" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways,PVMNTYEAR,-1,-1;PVMNTMAINT "Type of Most Recent Pavement Maintenance" true true false 20 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,PVMNTMAINT,-1,-1;PVMNTMARKS "Pavement Markings Present" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,PVMNTMARKS,-1,-1;ACQSOURCE "Acquisition Source" true true false 75 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,ACQSOURCE,-1,-1;ACQMETHOD "Acquisition Method" true true false 75 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,ACQMETHOD,-1,-1;ACQCOMMENT "Acquisition Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,ACQCOMMENT,-1,-1;LWCFPROT "LWCF Protection" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,LWCFPROT,-1,-1;OTHERPROT "Other Protection" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,OTHERPROT,-1,-1;RESPRTCMNT "Restriction Protection Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,RESPRTCMNT,-1,-1;SRTS_ZONE "Safe Routes to School Zone" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,SRTS_ZONE,-1,-1;LIGHTING "Lighting" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,LIGHTING,-1,-1;ADT_BIKE "ADT - Bicycle" true true false 4 Long 0 0 ,First,#,MetroCollaborativeTrailsBikeways,ADT_BIKE,-1,-1;ADT_PED "ADT - Pedestrians" true true false 4 Long 0 0 ,First,#,MetroCollaborativeTrailsBikeways,ADT_PED,-1,-1;TRL_URL "Trail URL" true true false 255 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,TRL_URL,-1,-1;DATAAUTHOR "Data Author" true false false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,DATAAUTHOR,-1,-1;EDITED_BY "Edited By" false false false 100 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,EDITED_BY,-1,-1;EDITED_DT "Edited Date" false false false 8 Date 0 0 ,First,#,MetroCollaborativeTrailsBikeways,EDITED_DT,-1,-1;CREATED_BY "Created By" false false false 100 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,CREATED_BY,-1,-1;CREATED_DT "Created Date" false false false 8 Date 0 0 ,First,#,MetroCollaborativeTrailsBikeways,CREATED_DT,-1,-1;SHAPE_Length "SHAPE_Length" false true true 8 Double 0 0 ,First,#,MetroCollaborativeTrailsBikeways,Shape_Length,-1,-1;SPEC_TYPE_TEMP "SPEC_TYPE_TEMP" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,SPEC_TYPE,-1,-1" #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="130527">CalculateField TRAILS_BIKEWAYS_v1_2 SUMMER_USE "Advisory Bike Lane" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="130530">CalculateField TRAILS_BIKEWAYS_v1_2 WINTER_USE "Advisory Bike Lane" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="131643">CalculateField TRAILS_BIKEWAYS_v1_2 SUMMER_USE "Bike Boulevard" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="131649">CalculateField TRAILS_BIKEWAYS_v1_2 WINTER_USE "Bike Boulevard" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="131709">CalculateField TRAILS_BIKEWAYS_v1_2 SUMMER_USE "Bikeable Shoulder" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="131713">CalculateField TRAILS_BIKEWAYS_v1_2 WINTER_USE "Bikeable Shoulder" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="131737">CalculateField TRAILS_BIKEWAYS_v1_2 SUMMER_USE "Buffered Bike Lane" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="131740">CalculateField TRAILS_BIKEWAYS_v1_2 WINTER_USE "Buffered Bike Lane" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="131809">CalculateField TRAILS_BIKEWAYS_v1_2 SUMMER_USE "Contraflow Bike Lane" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="131816">CalculateField TRAILS_BIKEWAYS_v1_2 WINTER_USE "Contraflow Bike Lane" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="131844">CalculateField TRAILS_BIKEWAYS_v1_2 SUMMER_USE "Cycle Track" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="131847">CalculateField TRAILS_BIKEWAYS_v1_2 WINTER_USE "Cycle Track" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="131933">CalculateField TRAILS_BIKEWAYS_v1_2 SUMMER_USE "Multi-Use Trail" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="132007">CalculateField TRAILS_BIKEWAYS_v1_2 WINTER_USE "Multi-Use Trail" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="132750">CalculateField TRAILS_BIKEWAYS PROT_SYS "Yes" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="132910">CalculateField TRAILS_BIKEWAYS SUMMER_USE "Buffered Bike Lane" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="132913">CalculateField TRAILS_BIKEWAYS WINTER_USE "Buffered Bike Lane" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="133013">CalculateField TRAILS_BIKEWAYS SUMMER_USE "Bike/Pedestrian Bridge" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="133017">CalculateField TRAILS_BIKEWAYS WINTER_USE "Bike/Pedestrian Bridge" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="133206">CalculateField TRAILS_BIKEWAYS SUMMER_USE "Pedestrian-Only Trail" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="133210">CalculateField TRAILS_BIKEWAYS WINTER_USE "Pedestrian-Only Trail" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="133249">CalculateField TRAILS_BIKEWAYS SUMMER_USE "Bike/Pedestrian Bridge" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="133252">CalculateField TRAILS_BIKEWAYS WINTER_USE "Bike/Pedestrian Bridge" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="133345">CalculateField TRAILS_BIKEWAYS SUMMER_USE "Separated-Use Trail" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="133349">CalculateField TRAILS_BIKEWAYS WINTER_USE "Separated-Use Trail" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="133753">CalculateField TRAILS_BIKEWAYS SUMMER_USE "Shared Bike/Bus Lane" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="133757">CalculateField TRAILS_BIKEWAYS WINTER_USE "Shared Bike/Bus Lane" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="133839">CalculateField TRAILS_BIKEWAYS SUMMER_USE "Bike/Pedestrian Bridge" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="133842">CalculateField TRAILS_BIKEWAYS WINTER_USE "Bike/Pedestrian Bridge" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="134020">CalculateField TRAILS_BIKEWAYS SUMMER_USE "Multi-Use Trail" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="134050">CalculateField TRAILS_BIKEWAYS WINTER_USE "Multi-Use Trail" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="134812">CalculateField TRAILS_BIKEWAYS SUMMER_USE "Sharrow/Shared Lane" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="134817">CalculateField TRAILS_BIKEWAYS WINTER_USE "Sharrow/Shared Lane" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="135102">CalculateField TRAILS_BIKEWAYS SUMMER_USE "Signed Bike Route" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="135106">CalculateField TRAILS_BIKEWAYS WINTER_USE "Signed Bike Route" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="135132">CalculateField TRAILS_BIKEWAYS WINTER_USE "Snowmobile" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="135440">CalculateField TRAILS_BIKEWAYS SUMMER_USE "Standard Bike Lane" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="135444">CalculateField TRAILS_BIKEWAYS WINTER_USE "Standard Bike Lane" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190618" Time="140348">CalculateField TRAILS_BIKEWAYS WINTER_USE "Cross-Country Ski" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190620" Time="125911">CalculateField TRAILS_BIKEWAYS AGCY_TYPE 99 VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190620" Time="125917">CalculateField TRAILS_BIKEWAYS AGCY_TYPE 98 VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190620" Time="130015">CalculateField TRAILS_BIKEWAYS DIRECTION "Two Way" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190620" Time="130046">CalculateField TRAILS_BIKEWAYS RBTN "Tier 1" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190620" Time="130103">CalculateField TRAILS_BIKEWAYS RBTN "Tier 2" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190620" Time="130135">CalculateField TRAILS_BIKEWAYS SEASNL_ACC "Year Round" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190620" Time="130233">CalculateField TRAILS_BIKEWAYS SURFACETYP "Bitum Asphalt" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteRows" Date="20190620" Time="132457">DeleteRows C:\Users\pwv299\Desktop\METRO_PARKS_TRAILS_v1_2\METRO_PARKS_TRAILS_v1_2.gdb\MetroCollaborativeTrailsBikeways</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.7\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20200205" Time="160542">Append MetroCollaborativeTrailsBikeways_anoka MetroCollaborativeTrailsBikeways NO_TEST "UNIQUE_ID "Feature Unique ID" true false false 36 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,UNIQUE_ID,-1,-1;TRAILNAME "Trail Name" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,TRAILNAME,-1,-1;TRLSYSNAME "Trail System Name" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,TRLSYSNAME,-1,-1;SHAREDNAME "Shared Name" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,SHAREDNAME,-1,-1;FED_SYS "Federal System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,FED_SYS,-1,-1;NTL_SYS "National Designation" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,NTL_SYS,-1,-1;STATE_SYS "State System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,STATE_SYS,-1,-1;REG_SYS "Regional System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,REG_SYS,-1,-1;CTY_SYS "County System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,CTY_SYS,-1,-1;LOC_SYS "Local System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,LOC_SYS,-1,-1;TRBL_SYS "Tribal System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,TRBL_SYS,-1,-1;PRVTE_SYS "Private System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,PRVTE_SYS,-1,-1;PROT_SYS "Protected System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,PROT_SYS,-1,-1;GEN_TYPE "General Route Type" true true false 15 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,GEN_TYPE,-1,-1;SUMMER_USE "Summer Use" true true false 75 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,SUMMER_USE,-1,-1;WINTER_USE "Winter Use" true true false 75 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,WINTER_USE,-1,-1;LANDOWNER "Landowner" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,LANDOWNER,-1,-1;OWNERTYPE "Landowner Type" true true false 2 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,OWNERTYPE,-1,-1;AGENCYNAME "Managing Agency" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,AGENCYNAME,-1,-1;AGCY_TYPE "Agency Type" true true false 2 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,AGCY_TYPE,-1,-1;CITY_MUNI "Municipality" true false false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,CITY_MUNI,-1,-1;COUNTY "County" true false false 3 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,COUNTY,-1,-1;STATE "State" true false false 2 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,STATE,-1,-1;PARKID "Park ID" true true false 16 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,PARKID,-1,-1;TRLSTATUS "Trail Status" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,TRLSTATUS,-1,-1;SURFACETYP "Surface Type" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,SURFACETYP,-1,-1;CONDITION "Condition" true true false 20 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,CONDITION,-1,-1;PARL_RD "Parallel Road" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,PARL_RD,-1,-1;ALTPARLRD "Alt Parallel Road Name" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,ALTPARLRD,-1,-1;YEAR_PRGRM "Year Programmed" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,YEAR_PRGRM,-1,-1;YEAR_OPEN "Year Open" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,YEAR_OPEN,-1,-1;LENGTH "Length" true false false 8 Double 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,LENGTH,-1,-1;WIDTH "Width" true true false 8 Double 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,WIDTH,-1,-1;SIDESTREET "Side On Street" true true false 10 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,SIDESTREET,-1,-1;PRD_SPEED "Parallel Road Speed Limit" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,PRD_SPEED,-1,-1;RTE_SPEED "Speed Limit of Trail/Bikeway" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,RTE_SPEED,-1,-1;DIRECTION "Route Direction" true true false 10 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,DIRECTION,-1,-1;RBTN "Regional Bike Transportation Network" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,RBTN,-1,-1;DIFFRTG "Difficulty Rating" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,DIFFRTG,-1,-1;ACCESS_STS "ADA Accessibility Status" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,ACCESS_STS,-1,-1;SEASNL_ACC "Seasonable Accessibility" true true false 20 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,SEASNL_ACC,-1,-1;MOTOR_USE "Motorized Use" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,MOTOR_USE,-1,-1;MNTSUMMER "Summer Maintenance" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,MNTSUMMER,-1,-1;MNTWINTER "Winter Maintenance" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,MNTWINTER,-1,-1;PVMNTYEAR "Year of Most Recent Pavement Maintenance" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,PVMNTYEAR,-1,-1;PVMNTMAINT "Type of Most Recent Pavement Maintenance" true true false 20 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,PVMNTMAINT,-1,-1;PVMNTMARKS "Pavement Markings Present" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,PVMNTMARKS,-1,-1;ACQSOURCE "Acquisition Source" true true false 75 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,ACQSOURCE,-1,-1;ACQMETHOD "Acquisition Method" true true false 75 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,ACQMETHOD,-1,-1;ACQCOMMENT "Acquisition Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,ACQCOMMENT,-1,-1;LWCFPROT "LWCF Protection" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,LWCFPROT,-1,-1;OTHERPROT "Other Protection" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,OTHERPROT,-1,-1;RESPRTCMNT "Restriction Protection Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,RESPRTCMNT,-1,-1;SRTS_ZONE "Safe Routes to School Zone" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,SRTS_ZONE,-1,-1;LIGHTING "Lighting" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,LIGHTING,-1,-1;ADT_BIKE "ADT - Bicycle" true true false 4 Long 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,ADT_BIKE,-1,-1;ADT_PED "ADT - Pedestrians" true true false 4 Long 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,ADT_PED,-1,-1;TRL_URL "Trail URL" true true false 255 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,TRL_URL,-1,-1;DATAAUTHOR "Data Author" true false false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,DATAAUTHOR,-1,-1;EDITED_BY "Edited By" false false false 100 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,EDITED_BY,-1,-1;EDITED_DT "Edited Date" false false false 8 Date 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,EDITED_DT,-1,-1;CREATED_BY "Created By" false false false 100 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,CREATED_BY,-1,-1;CREATED_DT "Created Date" false false false 8 Date 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,CREATED_DT,-1,-1;SHAPE_Length "SHAPE_Length" false true true 8 Double 0 0 ,First,#,MetroCollaborativeTrailsBikeways_anoka,SHAPE_Length,-1,-1" #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.7\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20200205" Time="160634">Append Trails_carver MetroCollaborativeTrailsBikeways NO_TEST "UNIQUE_ID "Feature Unique ID" true false false 36 Text 0 0 ,First,#,Trails_carver,UNIQUE_ID,-1,-1;TRAILNAME "Trail Name" true true false 150 Text 0 0 ,First,#,Trails_carver,TRAILNAME,-1,-1;TRLSYSNAME "Trail System Name" true true false 150 Text 0 0 ,First,#,Trails_carver,TRLSYSNAME,-1,-1;SHAREDNAME "Shared Name" true true false 150 Text 0 0 ,First,#,Trails_carver,SHAREDNAME,-1,-1;FED_SYS "Federal System" true true false 7 Text 0 0 ,First,#,Trails_carver,FED_SYS,-1,-1;NTL_SYS "National Designation" true true false 7 Text 0 0 ,First,#,Trails_carver,NTL_SYS,-1,-1;STATE_SYS "State System" true true false 7 Text 0 0 ,First,#,Trails_carver,STATE_SYS,-1,-1;REG_SYS "Regional System" true true false 7 Text 0 0 ,First,#,Trails_carver,REG_SYS,-1,-1;CTY_SYS "County System" true true false 7 Text 0 0 ,First,#,Trails_carver,CTY_SYS,-1,-1;LOC_SYS "Local System" true true false 7 Text 0 0 ,First,#,Trails_carver,LOC_SYS,-1,-1;TRBL_SYS "Tribal System" true true false 7 Text 0 0 ,First,#,Trails_carver,TRBL_SYS,-1,-1;PRVTE_SYS "Private System" true true false 7 Text 0 0 ,First,#,Trails_carver,PRVTE_SYS,-1,-1;PROT_SYS "Protected System" true true false 7 Text 0 0 ,First,#,Trails_carver,PROT_SYS,-1,-1;GEN_TYPE "General Route Type" true true false 15 Text 0 0 ,First,#,Trails_carver,GEN_TYPE,-1,-1;SUMMER_USE "Summer Use" true true false 75 Text 0 0 ,First,#,Trails_carver,SUMMER_USE,-1,-1;WINTER_USE "Winter Use" true true false 75 Text 0 0 ,First,#,Trails_carver,WINTER_USE,-1,-1;LANDOWNER "LANDOWNER" true true false 150 Text 0 0 ,First,#,Trails_carver,LANDOWNER,-1,-1;OWNERTYPE "Landowner Type" true true false 2 Text 0 0 ,First,#,Trails_carver,OWNERTYPE,-1,-1;AGENCYNAME "Managing Agency" true true false 150 Text 0 0 ,First,#,Trails_carver,AGENCYNAME,-1,-1;AGCY_TYPE "Agency Type" true true false 2 Text 0 0 ,First,#,Trails_carver,AGCY_TYPE,-1,-1;CITY_MUNI "Municipality" true false false 50 Text 0 0 ,First,#,Trails_carver,CITY_MUNI,-1,-1;COUNTY "COUNTY" true false false 3 Text 0 0 ,First,#,Trails_carver,COUNTY,-1,-1;STATE "STATE" true false false 2 Text 0 0 ,First,#,Trails_carver,STATE,-1,-1;PARKID "Park ID" true true false 16 Text 0 0 ,First,#,Trails_carver,PARKID,-1,-1;TRLSTATUS "Trail Status" true true false 50 Text 0 0 ,First,#,Trails_carver,TRLSTATUS,-1,-1;SURFACETYP "Surface Type" true true false 50 Text 0 0 ,First,#,Trails_carver,SURFACETYP,-1,-1;CONDITION "CONDITION" true true false 20 Text 0 0 ,First,#,Trails_carver,CONDITION,-1,-1;PARL_RD "Parallel Road" true true false 50 Text 0 0 ,First,#,Trails_carver,PARL_RD,-1,-1;ALTPARLRD "Alt Parallel Road Name" true true false 50 Text 0 0 ,First,#,Trails_carver,ALTPARLRD,-1,-1;YEAR_PRGRM "Year Programmed" true true false 2 Short 0 0 ,First,#,Trails_carver,YEAR_PRGRM,-1,-1;YEAR_OPEN "Year Open" true true false 2 Short 0 0 ,First,#,Trails_carver,YEAR_OPEN,-1,-1;LENGTH "LENGTH" true false false 8 Double 0 0 ,First,#,Trails_carver,LENGTH,-1,-1;WIDTH "WIDTH" true true false 8 Double 0 0 ,First,#,Trails_carver,WIDTH,-1,-1;SIDESTREET "Side On Street" true true false 10 Text 0 0 ,First,#,Trails_carver,SIDESTREET,-1,-1;PRD_SPEED "Parallel Road Speed Limit" true true false 2 Short 0 0 ,First,#,Trails_carver,PRD_SPEED,-1,-1;RTE_SPEED "Speed Limit of Trail/Bikeway" true true false 2 Short 0 0 ,First,#,Trails_carver,RTE_SPEED,-1,-1;DIRECTION "Route Direction" true true false 10 Text 0 0 ,First,#,Trails_carver,DIRECTION,-1,-1;RBTN "Regional Bike Transportation Network" true true false 7 Text 0 0 ,First,#,Trails_carver,RBTN,-1,-1;DIFFRTG "Difficulty Rating" true true false 50 Text 0 0 ,First,#,Trails_carver,DIFFRTG,-1,-1;ACCESS_STS "ADA Accessibility Status" true true false 50 Text 0 0 ,First,#,Trails_carver,ACCESS_STS,-1,-1;SEASNL_ACC "Seasonable Accessibility" true true false 20 Text 0 0 ,First,#,Trails_carver,SEASNL_ACC,-1,-1;MOTOR_USE "Motorized Use" true true false 50 Text 0 0 ,First,#,Trails_carver,MOTOR_USE,-1,-1;MNTSUMMER "Summer Maintenance" true true false 150 Text 0 0 ,First,#,Trails_carver,MNTSUMMER,-1,-1;MNTWINTER "Winter Maintenance" true true false 150 Text 0 0 ,First,#,Trails_carver,MNTWINTER,-1,-1;PVMNTYEAR "Year of Most Recent Pavement Maintenance" true true false 2 Short 0 0 ,First,#,Trails_carver,PVMNTYEAR,-1,-1;PVMNTMAINT "Type of Most Recent Pavement Maintenance" true true false 20 Text 0 0 ,First,#,Trails_carver,PVMNTMAINT,-1,-1;PVMNTMARKS "Pavement Markings Present" true true false 7 Text 0 0 ,First,#,Trails_carver,PVMNTMARKS,-1,-1;ACQSOURCE "Acquisition Source" true true false 75 Text 0 0 ,First,#,Trails_carver,ACQSOURCE,-1,-1;ACQMETHOD "Acquisition Method" true true false 75 Text 0 0 ,First,#,Trails_carver,ACQMETHOD,-1,-1;ACQCOMMENT "Acquisition Comment" true true false 150 Text 0 0 ,First,#,Trails_carver,ACQCOMMENT,-1,-1;LWCFPROT "LWCF Protection" true true false 7 Text 0 0 ,First,#,Trails_carver,LWCFPROT,-1,-1;OTHERPROT "Other Protection" true true false 50 Text 0 0 ,First,#,Trails_carver,OTHERPROT,-1,-1;RESPRTCMNT "Restriction Protection Comment" true true false 150 Text 0 0 ,First,#,Trails_carver,RESPRTCMNT,-1,-1;SRTS_ZONE "Safe Routes to School Zone" true true false 7 Text 0 0 ,First,#,Trails_carver,SRTS_ZONE,-1,-1;LIGHTING "LIGHTING" true true false 7 Text 0 0 ,First,#,Trails_carver,LIGHTING,-1,-1;ADT_BIKE "ADT - Bicycle" true true false 4 Long 0 0 ,First,#,Trails_carver,ADT_BIKE,-1,-1;ADT_PED "ADT - Pedestrians" true true false 4 Long 0 0 ,First,#,Trails_carver,ADT_PED,-1,-1;TRL_URL "Trail URL" true true false 255 Text 0 0 ,First,#,Trails_carver,TRL_URL,-1,-1;DATAAUTHOR "Data Author" true false false 50 Text 0 0 ,First,#,Trails_carver,DATAAUTHOR,-1,-1;EDITED_BY "Edited By" false false false 100 Text 0 0 ,First,#,Trails_carver,EDITED_BY,-1,-1;EDITED_DT "Edited Date" false false false 8 Date 0 0 ,First,#,Trails_carver,EDITED_DT,-1,-1;CREATED_BY "Created By" false false false 100 Text 0 0 ,First,#,Trails_carver,CREATED_BY,-1,-1;CREATED_DT "Created Date" false false false 8 Date 0 0 ,First,#,Trails_carver,CREATED_DT,-1,-1;SHAPE_Length "SHAPE_Length" false true true 8 Double 0 0 ,First,#,Trails_carver,SHAPE_Length,-1,-1" #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.7\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20200205" Time="160733">Append MetroCollaborativeTrailsBikeways_dakota MetroCollaborativeTrailsBikeways NO_TEST "UNIQUE_ID "Feature Unique ID" true false false 36 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,UNIQUE_ID,-1,-1;TRAILNAME "Trail Name" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,TRAILNAME,-1,-1;TRLSYSNAME "Trail System Name" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,TRLSYSNAME,-1,-1;SHAREDNAME "Shared Name" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,SHAREDNAME,-1,-1;FED_SYS "Federal System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,FED_SYS,-1,-1;NTL_SYS "National Designation" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,NTL_SYS,-1,-1;STATE_SYS "State System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,STATE_SYS,-1,-1;REG_SYS "Regional System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,REG_SYS,-1,-1;CTY_SYS "County System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,CTY_SYS,-1,-1;LOC_SYS "Local System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,LOC_SYS,-1,-1;TRBL_SYS "Tribal System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,TRBL_SYS,-1,-1;PRVTE_SYS "Private System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,PRVTE_SYS,-1,-1;PROT_SYS "Protected System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,PROT_SYS,-1,-1;GEN_TYPE "General Route Type" true true false 15 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,GEN_TYPE,-1,-1;SUMMER_USE "Summer Use" true true false 75 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,SUMMER_USE,-1,-1;WINTER_USE "Winter Use" true true false 75 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,WINTER_USE,-1,-1;LANDOWNER "LANDOWNER" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,LANDOWNER,-1,-1;OWNERTYPE "Landowner Type" true true false 2 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,OWNERTYPE,-1,-1;AGENCYNAME "Managing Agency" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,AGENCYNAME,-1,-1;AGCY_TYPE "Agency Type" true true false 2 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,AGCY_TYPE,-1,-1;CITY_MUNI "Municipality" true false false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,CITY_MUNI,-1,-1;COUNTY "COUNTY" true false false 3 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,COUNTY,-1,-1;STATE "STATE" true false false 2 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,STATE,-1,-1;PARKID "Park ID" true true false 16 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,PARKID,-1,-1;TRLSTATUS "Trail Status" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,TRLSTATUS,-1,-1;SURFACETYP "Surface Type" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,SURFACETYP,-1,-1;CONDITION "CONDITION" true true false 20 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,CONDITION,-1,-1;PARL_RD "Parallel Road" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,PARL_RD,-1,-1;ALTPARLRD "Alt Parallel Road Name" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,ALTPARLRD,-1,-1;YEAR_PRGRM "Year Programmed" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,YEAR_PRGRM,-1,-1;YEAR_OPEN "Year Open" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,YEAR_OPEN,-1,-1;LENGTH "LENGTH" true false false 8 Double 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,LENGTH,-1,-1;WIDTH "WIDTH" true true false 8 Double 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,WIDTH,-1,-1;SIDESTREET "Side On Street" true true false 10 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,SIDESTREET,-1,-1;PRD_SPEED "Parallel Road Speed Limit" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,PRD_SPEED,-1,-1;RTE_SPEED "Speed Limit of Trail/Bikeway" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,RTE_SPEED,-1,-1;DIRECTION "Route Direction" true true false 10 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,DIRECTION,-1,-1;RBTN "Regional Bike Transportation Network" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,RBTN,-1,-1;DIFFRTG "Difficulty Rating" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,DIFFRTG,-1,-1;ACCESS_STS "ADA Accessibility Status" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,ACCESS_STS,-1,-1;SEASNL_ACC "Seasonable Accessibility" true true false 20 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,SEASNL_ACC,-1,-1;MOTOR_USE "Motorized Use" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,MOTOR_USE,-1,-1;MNTSUMMER "Summer Maintenance" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,MNTSUMMER,-1,-1;MNTWINTER "Winter Maintenance" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,MNTWINTER,-1,-1;PVMNTYEAR "Year of Most Recent Pavement Maintenance" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,PVMNTYEAR,-1,-1;PVMNTMAINT "Type of Most Recent Pavement Maintenance" true true false 20 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,PVMNTMAINT,-1,-1;PVMNTMARKS "Pavement Markings Present" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,PVMNTMARKS,-1,-1;ACQSOURCE "Acquisition Source" true true false 75 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,ACQSOURCE,-1,-1;ACQMETHOD "Acquisition Method" true true false 75 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,ACQMETHOD,-1,-1;ACQCOMMENT "Acquisition Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,ACQCOMMENT,-1,-1;LWCFPROT "LWCF Protection" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,LWCFPROT,-1,-1;OTHERPROT "Other Protection" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,OTHERPROT,-1,-1;RESPRTCMNT "Restriction Protection Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,RESPRTCMNT,-1,-1;SRTS_ZONE "Safe Routes to School Zone" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,SRTS_ZONE,-1,-1;LIGHTING "LIGHTING" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,LIGHTING,-1,-1;ADT_BIKE "ADT - Bicycle" true true false 4 Long 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,ADT_BIKE,-1,-1;ADT_PED "ADT - Pedestrians" true true false 4 Long 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,ADT_PED,-1,-1;TRL_URL "Trail URL" true true false 255 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,TRL_URL,-1,-1;DATAAUTHOR "Data Author" true false false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,DATAAUTHOR,-1,-1;EDITED_BY "Edited By" false false false 100 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,EDITED_BY,-1,-1;EDITED_DT "Edited Date" false false false 8 Date 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,EDITED_DT,-1,-1;CREATED_BY "Created By" false false false 100 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,CREATED_BY,-1,-1;CREATED_DT "Created Date" false false false 8 Date 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,CREATED_DT,-1,-1;SHAPE_Length "SHAPE_Length" false true true 8 Double 0 0 ,First,#,MetroCollaborativeTrailsBikeways_dakota,SHAPE_Length,-1,-1" #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.7\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20200205" Time="160816">Append MetroCollaborativeTrailsBikeways_hennepin MetroCollaborativeTrailsBikeways NO_TEST "UNIQUE_ID "Feature Unique ID" true false false 36 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,UNIQUE_ID,-1,-1;TRAILNAME "Trail Name" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,TRAILNAME,-1,-1;TRLSYSNAME "Trail System Name" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,TRLSYSNAME,-1,-1;SHAREDNAME "Shared Name" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,SHAREDNAME,-1,-1;FED_SYS "Federal System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,FED_SYS,-1,-1;NTL_SYS "National Designation" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,NTL_SYS,-1,-1;STATE_SYS "State System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,STATE_SYS,-1,-1;REG_SYS "Regional System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,REG_SYS,-1,-1;CTY_SYS "County System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,CTY_SYS,-1,-1;LOC_SYS "Local System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,LOC_SYS,-1,-1;TRBL_SYS "Tribal System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,TRBL_SYS,-1,-1;PRVTE_SYS "Private System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,PRVTE_SYS,-1,-1;PROT_SYS "Protected System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,PROT_SYS,-1,-1;GEN_TYPE "General Route Type" true true false 15 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,GEN_TYPE,-1,-1;SUMMER_USE "Summer Use" true true false 75 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,SUMMER_USE,-1,-1;WINTER_USE "Winter Use" true true false 75 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,WINTER_USE,-1,-1;LANDOWNER "LANDOWNER" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,LANDOWNER,-1,-1;OWNERTYPE "Landowner Type" true true false 2 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,OWNERTYPE,-1,-1;AGENCYNAME "Managing Agency" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,AGENCYNAME,-1,-1;AGCY_TYPE "Agency Type" true true false 2 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,AGCY_TYPE,-1,-1;CITY_MUNI "Municipality" true false false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,CITY_MUNI,-1,-1;COUNTY "COUNTY" true false false 3 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,COUNTY,-1,-1;STATE "STATE" true false false 2 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,STATE,-1,-1;PARKID "Park ID" true true false 16 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,PARKID,-1,-1;TRLSTATUS "Trail Status" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,TRLSTATUS,-1,-1;SURFACETYP "Surface Type" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,SURFACETYP,-1,-1;CONDITION "CONDITION" true true false 20 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,CONDITION,-1,-1;PARL_RD "Parallel Road" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,PARL_RD,-1,-1;ALTPARLRD "Alt Parallel Road Name" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,ALTPARLRD,-1,-1;YEAR_PRGRM "Year Programmed" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,YEAR_PRGRM,-1,-1;YEAR_OPEN "Year Open" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,YEAR_OPEN,-1,-1;LENGTH "LENGTH" true false false 8 Double 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,LENGTH,-1,-1;WIDTH "WIDTH" true true false 8 Double 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,WIDTH,-1,-1;SIDESTREET "Side On Street" true true false 10 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,SIDESTREET,-1,-1;PRD_SPEED "Parallel Road Speed Limit" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,PRD_SPEED,-1,-1;RTE_SPEED "Speed Limit of Trail/Bikeway" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,RTE_SPEED,-1,-1;DIRECTION "Route Direction" true true false 10 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,DIRECTION,-1,-1;RBTN "Regional Bike Transportation Network" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,RBTN,-1,-1;DIFFRTG "Difficulty Rating" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,DIFFRTG,-1,-1;ACCESS_STS "ADA Accessibility Status" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,ACCESS_STS,-1,-1;SEASNL_ACC "Seasonable Accessibility" true true false 20 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,SEASNL_ACC,-1,-1;MOTOR_USE "Motorized Use" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,MOTOR_USE,-1,-1;MNTSUMMER "Summer Maintenance" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,MNTSUMMER,-1,-1;MNTWINTER "Winter Maintenance" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,MNTWINTER,-1,-1;PVMNTYEAR "Year of Most Recent Pavement Maintenance" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,PVMNTYEAR,-1,-1;PVMNTMAINT "Type of Most Recent Pavement Maintenance" true true false 20 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,PVMNTMAINT,-1,-1;PVMNTMARKS "Pavement Markings Present" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,PVMNTMARKS,-1,-1;ACQSOURCE "Acquisition Source" true true false 75 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,ACQSOURCE,-1,-1;ACQMETHOD "Acquisition Method" true true false 75 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,ACQMETHOD,-1,-1;ACQCOMMENT "Acquisition Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,ACQCOMMENT,-1,-1;LWCFPROT "LWCF Protection" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,LWCFPROT,-1,-1;OTHERPROT "Other Protection" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,OTHERPROT,-1,-1;RESPRTCMNT "Restriction Protection Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,RESPRTCMNT,-1,-1;SRTS_ZONE "Safe Routes to School Zone" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,SRTS_ZONE,-1,-1;LIGHTING "LIGHTING" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,LIGHTING,-1,-1;ADT_BIKE "ADT - Bicycle" true true false 4 Long 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,ADT_BIKE,-1,-1;ADT_PED "ADT - Pedestrians" true true false 4 Long 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,ADT_PED,-1,-1;TRL_URL "Trail URL" true true false 255 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,TRL_URL,-1,-1;DATAAUTHOR "Data Author" true false false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,DATAAUTHOR,-1,-1;EDITED_BY "Edited By" false false false 100 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,EDITED_BY,-1,-1;EDITED_DT "Edited Date" false false false 8 Date 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,EDITED_DT,-1,-1;CREATED_BY "Created By" false false false 100 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,CREATED_BY,-1,-1;CREATED_DT "Created Date" false false false 8 Date 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,CREATED_DT,-1,-1;SHAPE_Length "SHAPE_Length" false true true 8 Double 0 0 ,First,#,MetroCollaborativeTrailsBikeways_hennepin,SHAPE_Length,-1,-1" #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.7\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20200205" Time="160852">Append MetroCollaborativeTrailsBikeways_ramsey MetroCollaborativeTrailsBikeways NO_TEST "UNIQUE_ID "Feature Unique ID" true false false 36 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,UNIQUE_ID,-1,-1;TRAILNAME "Trail Name" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,TRAILNAME,-1,-1;TRLSYSNAME "Trail System Name" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,TRLSYSNAME,-1,-1;SHAREDNAME "Shared Name" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,SHAREDNAME,-1,-1;FED_SYS "Federal System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,FED_SYS,-1,-1;NTL_SYS "National Designation" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,NTL_SYS,-1,-1;STATE_SYS "State System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,STATE_SYS,-1,-1;REG_SYS "Regional System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,REG_SYS,-1,-1;CTY_SYS "County System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,CTY_SYS,-1,-1;LOC_SYS "Local System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,LOC_SYS,-1,-1;TRBL_SYS "Tribal System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,TRBL_SYS,-1,-1;PRVTE_SYS "Private System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,PRVTE_SYS,-1,-1;PROT_SYS "Protected System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,PROT_SYS,-1,-1;GEN_TYPE "General Route Type" true true false 15 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,GEN_TYPE,-1,-1;SUMMER_USE "Summer Use" true true false 75 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,SUMMER_USE,-1,-1;WINTER_USE "Winter Use" true true false 75 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,WINTER_USE,-1,-1;LANDOWNER "LANDOWNER" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,LANDOWNER,-1,-1;OWNERTYPE "Landowner Type" true true false 2 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,OWNERTYPE,-1,-1;AGENCYNAME "Managing Agency" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,AGENCYNAME,-1,-1;AGCY_TYPE "Agency Type" true true false 2 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,AGCY_TYPE,-1,-1;CITY_MUNI "Municipality" true false false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,CITY_MUNI,-1,-1;COUNTY "COUNTY" true false false 3 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,COUNTY,-1,-1;STATE "STATE" true false false 2 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,STATE,-1,-1;PARKID "Park ID" true true false 16 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,PARKID,-1,-1;TRLSTATUS "Trail Status" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,TRLSTATUS,-1,-1;SURFACETYP "Surface Type" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,SURFACETYP,-1,-1;CONDITION "CONDITION" true true false 20 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,CONDITION,-1,-1;PARL_RD "Parallel Road" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,PARL_RD,-1,-1;ALTPARLRD "Alt Parallel Road Name" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,ALTPARLRD,-1,-1;YEAR_PRGRM "Year Programmed" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,YEAR_PRGRM,-1,-1;YEAR_OPEN "Year Open" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,YEAR_OPEN,-1,-1;LENGTH "LENGTH" true false false 8 Double 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,LENGTH,-1,-1;WIDTH "WIDTH" true true false 8 Double 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,WIDTH,-1,-1;SIDESTREET "Side On Street" true true false 10 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,SIDESTREET,-1,-1;PRD_SPEED "Parallel Road Speed Limit" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,PRD_SPEED,-1,-1;RTE_SPEED "Speed Limit of Trail/Bikeway" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,RTE_SPEED,-1,-1;DIRECTION "Route Direction" true true false 10 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,DIRECTION,-1,-1;RBTN "Regional Bike Transportation Network" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,RBTN,-1,-1;DIFFRTG "Difficulty Rating" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,DIFFRTG,-1,-1;ACCESS_STS "ADA Accessibility Status" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,ACCESS_STS,-1,-1;SEASNL_ACC "Seasonable Accessibility" true true false 20 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,SEASNL_ACC,-1,-1;MOTOR_USE "Motorized Use" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,MOTOR_USE,-1,-1;MNTSUMMER "Summer Maintenance" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,MNTSUMMER,-1,-1;MNTWINTER "Winter Maintenance" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,MNTWINTER,-1,-1;PVMNTYEAR "Year of Most Recent Pavement Maintenance" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,PVMNTYEAR,-1,-1;PVMNTMAINT "Type of Most Recent Pavement Maintenance" true true false 20 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,PVMNTMAINT,-1,-1;PVMNTMARKS "Pavement Markings Present" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,PVMNTMARKS,-1,-1;ACQSOURCE "Acquisition Source" true true false 75 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,ACQSOURCE,-1,-1;ACQMETHOD "Acquisition Method" true true false 75 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,ACQMETHOD,-1,-1;ACQCOMMENT "Acquisition Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,ACQCOMMENT,-1,-1;LWCFPROT "LWCF Protection" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,LWCFPROT,-1,-1;OTHERPROT "Other Protection" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,OTHERPROT,-1,-1;RESPRTCMNT "Restriction Protection Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,RESPRTCMNT,-1,-1;SRTS_ZONE "Safe Routes to School Zone" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,SRTS_ZONE,-1,-1;LIGHTING "LIGHTING" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,LIGHTING,-1,-1;ADT_BIKE "ADT - Bicycle" true true false 4 Long 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,ADT_BIKE,-1,-1;ADT_PED "ADT - Pedestrians" true true false 4 Long 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,ADT_PED,-1,-1;TRL_URL "Trail URL" true true false 255 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,TRL_URL,-1,-1;DATAAUTHOR "Data Author" true false false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,DATAAUTHOR,-1,-1;EDITED_BY "Edited By" false false false 100 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,EDITED_BY,-1,-1;EDITED_DT "Edited Date" false false false 8 Date 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,EDITED_DT,-1,-1;CREATED_BY "Created By" false false false 100 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,CREATED_BY,-1,-1;CREATED_DT "Created Date" false false false 8 Date 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,CREATED_DT,-1,-1;SHAPE_Length "SHAPE_Length" false true true 8 Double 0 0 ,First,#,MetroCollaborativeTrailsBikeways_ramsey,SHAPE_Length,-1,-1" #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.7\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20200205" Time="160936">Append MetroCollaborativeTrailsBikeways_washington MetroCollaborativeTrailsBikeways NO_TEST "UNIQUE_ID "Feature Unique ID" true false false 36 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,UNIQUE_ID,-1,-1;TRAILNAME "Trail Name" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,TRAILNAME,-1,-1;TRLSYSNAME "Trail System Name" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,TRLSYSNAME,-1,-1;SHAREDNAME "Shared Name" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,SHAREDNAME,-1,-1;FED_SYS "Federal System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,FED_SYS,-1,-1;NTL_SYS "National Designation" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,NTL_SYS,-1,-1;STATE_SYS "State System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,STATE_SYS,-1,-1;REG_SYS "Regional System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,REG_SYS,-1,-1;CTY_SYS "County System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,CTY_SYS,-1,-1;LOC_SYS "Local System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,LOC_SYS,-1,-1;TRBL_SYS "Tribal System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,TRBL_SYS,-1,-1;PRVTE_SYS "Private System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,PRVTE_SYS,-1,-1;PROT_SYS "Protected System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,PROT_SYS,-1,-1;GEN_TYPE "General Route Type" true true false 15 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,GEN_TYPE,-1,-1;SUMMER_USE "Summer Use" true true false 75 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,SUMMER_USE,-1,-1;WINTER_USE "Winter Use" true true false 75 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,WINTER_USE,-1,-1;LANDOWNER "LANDOWNER" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,LANDOWNER,-1,-1;OWNERTYPE "Landowner Type" true true false 2 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,OWNERTYPE,-1,-1;AGENCYNAME "Managing Agency" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,AGENCYNAME,-1,-1;AGCY_TYPE "Agency Type" true true false 2 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,AGCY_TYPE,-1,-1;CITY_MUNI "Municipality" true false false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,CITY_MUNI,-1,-1;COUNTY "COUNTY" true false false 3 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,COUNTY,-1,-1;STATE "STATE" true false false 2 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,STATE,-1,-1;PARKID "Park ID" true true false 16 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,PARKID,-1,-1;TRLSTATUS "Trail Status" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,TRLSTATUS,-1,-1;SURFACETYP "Surface Type" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,SURFACETYP,-1,-1;CONDITION "CONDITION" true true false 20 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,CONDITION,-1,-1;PARL_RD "Parallel Road" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,PARL_RD,-1,-1;ALTPARLRD "Alt Parallel Road Name" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,ALTPARLRD,-1,-1;YEAR_PRGRM "Year Programmed" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,YEAR_PRGRM,-1,-1;YEAR_OPEN "Year Open" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,YEAR_OPEN,-1,-1;LENGTH "LENGTH" true false false 8 Double 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,LENGTH,-1,-1;WIDTH "WIDTH" true true false 8 Double 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,WIDTH,-1,-1;SIDESTREET "Side On Street" true true false 10 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,SIDESTREET,-1,-1;PRD_SPEED "Parallel Road Speed Limit" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,PRD_SPEED,-1,-1;RTE_SPEED "Speed Limit of Trail/Bikeway" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,RTE_SPEED,-1,-1;DIRECTION "Route Direction" true true false 10 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,DIRECTION,-1,-1;RBTN "Regional Bike Transportation Network" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,RBTN,-1,-1;DIFFRTG "Difficulty Rating" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,DIFFRTG,-1,-1;ACCESS_STS "ADA Accessibility Status" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,ACCESS_STS,-1,-1;SEASNL_ACC "Seasonable Accessibility" true true false 20 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,SEASNL_ACC,-1,-1;MOTOR_USE "Motorized Use" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,MOTOR_USE,-1,-1;MNTSUMMER "Summer Maintenance" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,MNTSUMMER,-1,-1;MNTWINTER "Winter Maintenance" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,MNTWINTER,-1,-1;PVMNTYEAR "Year of Most Recent Pavement Maintenance" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,PVMNTYEAR,-1,-1;PVMNTMAINT "Type of Most Recent Pavement Maintenance" true true false 20 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,PVMNTMAINT,-1,-1;PVMNTMARKS "Pavement Markings Present" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,PVMNTMARKS,-1,-1;ACQSOURCE "Acquisition Source" true true false 75 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,ACQSOURCE,-1,-1;ACQMETHOD "Acquisition Method" true true false 75 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,ACQMETHOD,-1,-1;ACQCOMMENT "Acquisition Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,ACQCOMMENT,-1,-1;LWCFPROT "LWCF Protection" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,LWCFPROT,-1,-1;OTHERPROT "Other Protection" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,OTHERPROT,-1,-1;RESPRTCMNT "Restriction Protection Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,RESPRTCMNT,-1,-1;SRTS_ZONE "Safe Routes to School Zone" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,SRTS_ZONE,-1,-1;LIGHTING "LIGHTING" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,LIGHTING,-1,-1;ADT_BIKE "ADT - Bicycle" true true false 4 Long 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,ADT_BIKE,-1,-1;ADT_PED "ADT - Pedestrians" true true false 4 Long 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,ADT_PED,-1,-1;TRL_URL "Trail URL" true true false 255 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,TRL_URL,-1,-1;DATAAUTHOR "Data Author" true false false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,DATAAUTHOR,-1,-1;EDITED_BY "Edited By" false false false 100 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,EDITED_BY,-1,-1;EDITED_DT "Edited Date" false false false 8 Date 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,EDITED_DT,-1,-1;CREATED_BY "Created By" false false false 100 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,CREATED_BY,-1,-1;CREATED_DT "Created Date" false false false 8 Date 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,CREATED_DT,-1,-1;SHAPE_Length "SHAPE_Length" false true true 8 Double 0 0 ,First,#,MetroCollaborativeTrailsBikeways_washington,SHAPE_Length,-1,-1" #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.7\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20200205" Time="161054">Append MetroCollaborativeTrailsBikeways_scott MetroCollaborativeTrailsBikeways NO_TEST "UNIQUE_ID "Feature Unique ID" true false false 36 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,UNIQUE_ID,-1,-1;TRAILNAME "Trail Name" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,TRAILNAME,-1,-1;TRLSYSNAME "Trail System Name" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,TRLSYSNAME,-1,-1;SHAREDNAME "Shared Name" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,SHAREDNAME,-1,-1;FED_SYS "Federal System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,FED_SYS,-1,-1;NTL_SYS "National Designation" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,NTL_SYS,-1,-1;STATE_SYS "State System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,STATE_SYS,-1,-1;REG_SYS "Regional System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,REG_SYS,-1,-1;CTY_SYS "County System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,CTY_SYS,-1,-1;LOC_SYS "Local System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,LOC_SYS,-1,-1;TRBL_SYS "Tribal System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,TRBL_SYS,-1,-1;PRVTE_SYS "Private System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,PRVTE_SYS,-1,-1;PROT_SYS "Protected System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,PROT_SYS,-1,-1;GEN_TYPE "General Route Type" true true false 15 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,GEN_TYPE,-1,-1;SUMMER_USE "Summer Use" true true false 75 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,SUMMER_USE,-1,-1;WINTER_USE "Winter Use" true true false 75 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,WINTER_USE,-1,-1;LANDOWNER "LANDOWNER" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,LANDOWNER,-1,-1;OWNERTYPE "Landowner Type" true true false 2 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,OWNERTYPE,-1,-1;AGENCYNAME "Managing Agency" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,AGENCYNAME,-1,-1;AGCY_TYPE "Agency Type" true true false 2 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,AGCY_TYPE,-1,-1;CITY_MUNI "Municipality" true false false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,CITY_MUNI,-1,-1;COUNTY "COUNTY" true false false 3 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,COUNTY,-1,-1;STATE "STATE" true false false 2 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,STATE,-1,-1;PARKID "Park ID" true true false 16 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,PARKID,-1,-1;TRLSTATUS "Trail Status" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,TRLSTATUS,-1,-1;SURFACETYP "Surface Type" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,SURFACETYP,-1,-1;CONDITION "CONDITION" true true false 20 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,CONDITION,-1,-1;PARL_RD "Parallel Road" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,PARL_RD,-1,-1;ALTPARLRD "Alt Parallel Road Name" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,ALTPARLRD,-1,-1;YEAR_PRGRM "Year Programmed" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,YEAR_PRGRM,-1,-1;YEAR_OPEN "Year Open" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,YEAR_OPEN,-1,-1;LENGTH "LENGTH" true false false 8 Double 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,LENGTH,-1,-1;WIDTH "WIDTH" true true false 8 Double 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,WIDTH,-1,-1;SIDESTREET "Side On Street" true true false 10 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,SIDESTREET,-1,-1;PRD_SPEED "Parallel Road Speed Limit" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,PRD_SPEED,-1,-1;RTE_SPEED "Speed Limit of Trail/Bikeway" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,RTE_SPEED,-1,-1;DIRECTION "Route Direction" true true false 10 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,DIRECTION,-1,-1;RBTN "Regional Bike Transportation Network" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,RBTN,-1,-1;DIFFRTG "Difficulty Rating" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,DIFFRTG,-1,-1;ACCESS_STS "ADA Accessibility Status" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,ACCESS_STS,-1,-1;SEASNL_ACC "Seasonable Accessibility" true true false 20 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,SEASNL_ACC,-1,-1;MOTOR_USE "Motorized Use" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,MOTOR_USE,-1,-1;MNTSUMMER "Summer Maintenance" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,MNTSUMMER,-1,-1;MNTWINTER "Winter Maintenance" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,MNTWINTER,-1,-1;PVMNTYEAR "Year of Most Recent Pavement Maintenance" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,PVMNTYEAR,-1,-1;PVMNTMAINT "Type of Most Recent Pavement Maintenance" true true false 20 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,PVMNTMAINT,-1,-1;PVMNTMARKS "Pavement Markings Present" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,PVMNTMARKS,-1,-1;ACQSOURCE "Acquisition Source" true true false 75 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,ACQSOURCE,-1,-1;ACQMETHOD "Acquisition Method" true true false 75 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,ACQMETHOD,-1,-1;ACQCOMMENT "Acquisition Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,ACQCOMMENT,-1,-1;LWCFPROT "LWCF Protection" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,LWCFPROT,-1,-1;OTHERPROT "Other Protection" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,OTHERPROT,-1,-1;RESPRTCMNT "Restriction Protection Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,RESPRTCMNT,-1,-1;SRTS_ZONE "Safe Routes to School Zone" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,SRTS_ZONE,-1,-1;LIGHTING "LIGHTING" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,LIGHTING,-1,-1;ADT_BIKE "ADT - Bicycle" true true false 4 Long 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,ADT_BIKE,-1,-1;ADT_PED "ADT - Pedestrians" true true false 4 Long 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,ADT_PED,-1,-1;TRL_URL "Trail URL" true true false 255 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,TRL_URL,-1,-1;DATAAUTHOR "Data Author" true false false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,DATAAUTHOR,-1,-1;EDITED_BY "Edited By" false false false 100 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,EDITED_BY,-1,-1;EDITED_DT "Edited Date" false false false 8 Date 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,EDITED_DT,-1,-1;CREATED_BY "Created By" false false false 100 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,CREATED_BY,-1,-1;CREATED_DT "Created Date" false false false 8 Date 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,CREATED_DT,-1,-1;SHAPE_Length "SHAPE_Length" false true true 8 Double 0 0 ,First,#,MetroCollaborativeTrailsBikeways_scott,SHAPE_Length,-1,-1" #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.7\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20200210" Time="083447">FeatureClassToFeatureClass MetroCollaborativeTrailsBikeways "Database Connections\SDE@GISLibrary.sde\GISLibrary.DBO.ParksAndRecreation" MetroCollaborativeTrailsBikeways # "UNIQUE_ID "Feature Unique ID" true true false 36 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,UNIQUE_ID,-1,-1;TRAILNAME "Trail Name" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,TRAILNAME,-1,-1;TRLSYSNAME "Trail System Name" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,TRLSYSNAME,-1,-1;SHAREDNAME "Shared Name" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,SHAREDNAME,-1,-1;FED_SYS "Federal System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,FED_SYS,-1,-1;NTL_SYS "National Designation" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,NTL_SYS,-1,-1;STATE_SYS "State System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,STATE_SYS,-1,-1;REG_SYS "Regional System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,REG_SYS,-1,-1;CTY_SYS "County System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,CTY_SYS,-1,-1;LOC_SYS "Local System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,LOC_SYS,-1,-1;TRBL_SYS "Tribal System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,TRBL_SYS,-1,-1;PRVTE_SYS "Private System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,PRVTE_SYS,-1,-1;PROT_SYS "Protected System" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,PROT_SYS,-1,-1;GEN_TYPE "General Route Type" true true false 15 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,GEN_TYPE,-1,-1;SUMMER_USE "Summer Use" true true false 75 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,SUMMER_USE,-1,-1;WINTER_USE "Winter Use" true true false 75 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,WINTER_USE,-1,-1;LANDOWNER "Landowner" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,LANDOWNER,-1,-1;OWNERTYPE "Landowner Type" true true false 2 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,OWNERTYPE,-1,-1;AGENCYNAME "Managing Agency" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,AGENCYNAME,-1,-1;AGCY_TYPE "Agency Type" true true false 2 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,AGCY_TYPE,-1,-1;CITY_MUNI "Municipality" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,CITY_MUNI,-1,-1;COUNTY "County" true true false 3 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,COUNTY,-1,-1;STATE "State" true true false 2 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,STATE,-1,-1;PARKID "Park ID" true true false 16 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,PARKID,-1,-1;TRLSTATUS "Trail Status" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,TRLSTATUS,-1,-1;SURFACETYP "Surface Type" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,SURFACETYP,-1,-1;CONDITION "Condition" true true false 20 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,CONDITION,-1,-1;PARL_RD "Parallel Road" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,PARL_RD,-1,-1;ALTPARLRD "Alt Parallel Road Name" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,ALTPARLRD,-1,-1;YEAR_PRGRM "Year Programmed" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways,YEAR_PRGRM,-1,-1;YEAR_OPEN "Year Open" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways,YEAR_OPEN,-1,-1;LENGTH "Length" true true false 8 Double 0 0 ,First,#,MetroCollaborativeTrailsBikeways,LENGTH,-1,-1;WIDTH "Width" true true false 8 Double 0 0 ,First,#,MetroCollaborativeTrailsBikeways,WIDTH,-1,-1;SIDESTREET "Side On Street" true true false 10 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,SIDESTREET,-1,-1;PRD_SPEED "Parallel Road Speed Limit" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways,PRD_SPEED,-1,-1;RTE_SPEED "Speed Limit of Trail/Bikeway" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways,RTE_SPEED,-1,-1;DIRECTION "Route Direction" true true false 10 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,DIRECTION,-1,-1;RBTN "Regional Bike Transportation Network" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,RBTN,-1,-1;DIFFRTG "Difficulty Rating" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,DIFFRTG,-1,-1;ACCESS_STS "ADA Accessibility Status" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,ACCESS_STS,-1,-1;SEASNL_ACC "Seasonable Accessibility" true true false 20 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,SEASNL_ACC,-1,-1;MOTOR_USE "Motorized Use" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,MOTOR_USE,-1,-1;MNTSUMMER "Summer Maintenance" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,MNTSUMMER,-1,-1;MNTWINTER "Winter Maintenance" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,MNTWINTER,-1,-1;PVMNTYEAR "Year of Most Recent Pavement Maintenance" true true false 2 Short 0 0 ,First,#,MetroCollaborativeTrailsBikeways,PVMNTYEAR,-1,-1;PVMNTMAINT "Type of Most Recent Pavement Maintenance" true true false 20 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,PVMNTMAINT,-1,-1;PVMNTMARKS "Pavement Markings Present" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,PVMNTMARKS,-1,-1;ACQSOURCE "Acquisition Source" true true false 75 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,ACQSOURCE,-1,-1;ACQMETHOD "Acquisition Method" true true false 75 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,ACQMETHOD,-1,-1;ACQCOMMENT "Acquisition Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,ACQCOMMENT,-1,-1;LWCFPROT "LWCF Protection" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,LWCFPROT,-1,-1;OTHERPROT "Other Protection" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,OTHERPROT,-1,-1;RESPRTCMNT "Restriction Protection Comment" true true false 150 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,RESPRTCMNT,-1,-1;SRTS_ZONE "Safe Routes to School Zone" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,SRTS_ZONE,-1,-1;LIGHTING "Lighting" true true false 7 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,LIGHTING,-1,-1;ADT_BIKE "ADT - Bicycle" true true false 4 Long 0 0 ,First,#,MetroCollaborativeTrailsBikeways,ADT_BIKE,-1,-1;ADT_PED "ADT - Pedestrians" true true false 4 Long 0 0 ,First,#,MetroCollaborativeTrailsBikeways,ADT_PED,-1,-1;TRL_URL "Trail URL" true true false 255 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,TRL_URL,-1,-1;DATAAUTHOR "Data Author" true true false 50 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,DATAAUTHOR,-1,-1;EDITED_BY "Edited By" false true false 100 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,EDITED_BY,-1,-1;EDITED_DT "Edited Date" false true false 8 Date 0 0 ,First,#,MetroCollaborativeTrailsBikeways,EDITED_DT,-1,-1;CREATED_BY "Created By" false true false 100 Text 0 0 ,First,#,MetroCollaborativeTrailsBikeways,CREATED_BY,-1,-1;CREATED_DT "Created Date" false true false 8 Date 0 0 ,First,#,MetroCollaborativeTrailsBikeways,CREATED_DT,-1,-1;SHAPE_Length "SHAPE_Length" false true true 8 Double 0 0 ,First,#,MetroCollaborativeTrailsBikeways,SHAPE_Length,-1,-1" #</Process>
+				<Process ToolSource="C:\program files\arcgis\server\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20220629" Time="234706">FeatureClassToFeatureClass /var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways /var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\shp MetroCollaborativeTrailsBikeways.shp # "UNIQUE_ID "Feature Unique ID" true true false 36 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,UNIQUE_ID,-1,-1;TRAILNAME "Trail Name" true true false 150 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,TRAILNAME,-1,-1;TRLSYSNAME "Trail System Name" true true false 150 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,TRLSYSNAME,-1,-1;SHAREDNAME "Shared Name" true true false 150 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,SHAREDNAME,-1,-1;FED_SYS "Federal System" true true false 7 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,FED_SYS,-1,-1;NTL_SYS "National Designation" true true false 7 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,NTL_SYS,-1,-1;STATE_SYS "State System" true true false 7 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,STATE_SYS,-1,-1;REG_SYS "Regional System" true true false 7 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,REG_SYS,-1,-1;CTY_SYS "County System" true true false 7 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,CTY_SYS,-1,-1;LOC_SYS "Local System" true true false 7 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,LOC_SYS,-1,-1;TRBL_SYS "Tribal System" true true false 7 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,TRBL_SYS,-1,-1;PRVTE_SYS "Private System" true true false 7 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,PRVTE_SYS,-1,-1;PROT_SYS "Protected System" true true false 7 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,PROT_SYS,-1,-1;GEN_TYPE "General Route Type" true true false 15 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,GEN_TYPE,-1,-1;SUMMER_USE "Summer Use" true true false 75 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,SUMMER_USE,-1,-1;WINTER_USE "Winter Use" true true false 75 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,WINTER_USE,-1,-1;LANDOWNER "Landowner" true true false 150 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,LANDOWNER,-1,-1;OWNERTYPE "Landowner Type" true true false 2 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,OWNERTYPE,-1,-1;AGENCYNAME "Managing Agency" true true false 150 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,AGENCYNAME,-1,-1;AGCY_TYPE "Agency Type" true true false 2 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,AGCY_TYPE,-1,-1;CITY_MUNI "Municipality" true true false 50 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,CITY_MUNI,-1,-1;COUNTY "County" true true false 3 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,COUNTY,-1,-1;STATE "State" true true false 2 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,STATE,-1,-1;PARKID "Park ID" true true false 16 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,PARKID,-1,-1;TRLSTATUS "Trail Status" true true false 50 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,TRLSTATUS,-1,-1;SURFACETYP "Surface Type" true true false 50 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,SURFACETYP,-1,-1;CONDITION "Condition" true true false 20 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,CONDITION,-1,-1;PARL_RD "Parallel Road" true true false 50 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,PARL_RD,-1,-1;ALTPARLRD "Alt Parallel Road Name" true true false 50 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,ALTPARLRD,-1,-1;YEAR_PRGRM "Year Programmed" true true false 2 Short 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,YEAR_PRGRM,-1,-1;YEAR_OPEN "Year Open" true true false 2 Short 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,YEAR_OPEN,-1,-1;LENGTH "Length" true true false 8 Double 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,LENGTH,-1,-1;WIDTH "Width" true true false 8 Double 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,WIDTH,-1,-1;SIDESTREET "Side On Street" true true false 10 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,SIDESTREET,-1,-1;PRD_SPEED "Parallel Road Speed Limit" true true false 2 Short 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,PRD_SPEED,-1,-1;RTE_SPEED "Speed Limit of Trail/Bikeway" true true false 2 Short 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,RTE_SPEED,-1,-1;DIRECTION "Route Direction" true true false 10 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,DIRECTION,-1,-1;RBTN "Regional Bike Transportation Network" true true false 7 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,RBTN,-1,-1;DIFFRTG "Difficulty Rating" true true false 50 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,DIFFRTG,-1,-1;ACCESS_STS "ADA Accessibility Status" true true false 50 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,ACCESS_STS,-1,-1;SEASNL_ACC "Seasonable Accessibility" true true false 20 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,SEASNL_ACC,-1,-1;MOTOR_USE "Motorized Use" true true false 50 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,MOTOR_USE,-1,-1;MNTSUMMER "Summer Maintenance" true true false 150 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,MNTSUMMER,-1,-1;MNTWINTER "Winter Maintenance" true true false 150 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,MNTWINTER,-1,-1;PVMNTYEAR "Year of Most Recent Pavement Maintenance" true true false 2 Short 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,PVMNTYEAR,-1,-1;PVMNTMAINT "Type of Most Recent Pavement Maintenance" true true false 20 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,PVMNTMAINT,-1,-1;PVMNTMARKS "Pavement Markings Present" true true false 7 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,PVMNTMARKS,-1,-1;ACQSOURCE "Acquisition Source" true true false 75 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,ACQSOURCE,-1,-1;ACQMETHOD "Acquisition Method" true true false 75 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,ACQMETHOD,-1,-1;ACQCOMMENT "Acquisition Comment" true true false 150 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,ACQCOMMENT,-1,-1;LWCFPROT "LWCF Protection" true true false 7 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,LWCFPROT,-1,-1;OTHERPROT "Other Protection" true true false 50 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,OTHERPROT,-1,-1;RESPRTCMNT "Restriction Protection Comment" true true false 150 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,RESPRTCMNT,-1,-1;SRTS_ZONE "Safe Routes to School Zone" true true false 7 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,SRTS_ZONE,-1,-1;LIGHTING "Lighting" true true false 7 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,LIGHTING,-1,-1;ADT_BIKE "ADT - Bicycle" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,ADT_BIKE,-1,-1;ADT_PED "ADT - Pedestrians" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,ADT_PED,-1,-1;TRL_URL "Trail URL" true true false 255 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,TRL_URL,-1,-1;DATAAUTHOR "Data Author" true true false 50 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,DATAAUTHOR,-1,-1;EDITED_BY "Edited By" true true false 100 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,EDITED_BY,-1,-1;EDITED_DT "Edited Date" true true false 8 Date 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,EDITED_DT,-1,-1;CREATED_BY "Created By" true true false 100 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,CREATED_BY,-1,-1;CREATED_DT "Created Date" true true false 8 Date 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,CREATED_DT,-1,-1;Shape_Leng "Shape_Leng" false true true 8 Double 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\fgdb\trans_metro_colabtiv_trails_bike.gdb\MetroCollaborativeTrailsBikeways,Shape_Length,-1,-1" #</Process>
+			</lineage>
+			<itemProps>
+				<itemName Sync="TRUE">MetroCollaborativeTrailsBikeways</itemName>
+				<imsContentType Sync="TRUE">002</imsContentType>
+				<itemLocation>
+					<linkage Sync="TRUE">file://\\g46palgdrftp001\Z\var\ftp\gdrs_temp\update\us_mn_state_metrogis\trans_metro_colabtiv_trails_bike\shp\MetroCollaborativeTrailsBikeways.shp</linkage>
+					<protocol Sync="TRUE">Local Area Network</protocol>
+				</itemLocation>
+				<itemSize Sync="TRUE">0.000</itemSize>
+			</itemProps>
+			<coordRef>
+				<type Sync="TRUE">Projected</type>
+				<geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+				<csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits>
+				<projcsn Sync="TRUE">NAD_1983_UTM_Zone_15N</projcsn>
+				<peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.4'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_UTM_Zone_15N&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Transverse_Mercator&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,500000.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-93.0],PARAMETER[&amp;quot;Scale_Factor&amp;quot;,0.9996],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,0.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,26915]]&lt;/WKT&gt;&lt;XOrigin&gt;-5120900&lt;/XOrigin&gt;&lt;YOrigin&gt;-9998100&lt;/YOrigin&gt;&lt;XYScale&gt;450445547.3910538&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;26915&lt;/WKID&gt;&lt;LatestWKID&gt;26915&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml>
+			</coordRef>
+		</DataProperties>
+		<SyncDate>20220629</SyncDate>
+		<SyncTime>23465800</SyncTime>
+		<ModDate>20220629</ModDate>
+		<ModTime>23465800</ModTime>
+	</Esri>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE">Microsoft Windows XP Professional x64 Edition Version 5.2 (Build 3790) Service Pack 2; Esri ArcGIS 10.4.1.5686</envirDesc>
+		<dataLang>
+			<languageCode value="en" Sync="TRUE"/>
+			<countryCode value="US" Sync="TRUE"/>
+		</dataLang>
+		<idCitation>
+			<resTitle Sync="TRUE">MetroCollaborativeTrailsBikeways</resTitle>
+			<presForm>
+				<PresFormCd value="005" Sync="TRUE"/>
+			</presForm>
+		</idCitation>
+		<spatRpType>
+			<SpatRepTypCd value="001" Sync="TRUE"/>
+		</spatRpType>
+	</dataIdInfo>
+	<mdLang>
+		<languageCode value="en" Sync="TRUE"/>
+		<countryCode value="US" Sync="TRUE"/>
+	</mdLang>
+	<distInfo>
+		<distFormat>
+			<formatName Sync="TRUE">Shapefile</formatName>
+		</distFormat>
+		<distTranOps>
+			<transSize Sync="TRUE">0.000</transSize>
+		</distTranOps>
+	</distInfo>
+	<mdHrLv>
+		<ScopeCd value="005" Sync="TRUE"/>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode code="26915" Sync="TRUE"/>
+				<idCodeSpace Sync="TRUE">EPSG</idCodeSpace>
+				<idVersion Sync="TRUE">6.13(3.0.1)</idVersion>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<geometObjs Name="MetroCollaborativeTrailsBikeways">
+				<geoObjTyp>
+					<GeoObjTypCd value="002" Sync="TRUE"/>
+				</geoObjTyp>
+				<geoObjCnt Sync="TRUE">0</geoObjCnt>
+			</geometObjs>
+			<topLvl>
+				<TopoLevCd value="001" Sync="TRUE"/>
+			</topLvl>
+		</VectSpatRep>
+	</spatRepInfo>
+	<spdoinfo>
+		<ptvctinf>
+			<esriterm Name="MetroCollaborativeTrailsBikeways">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<efeageom code="3" Sync="TRUE"/>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<efeacnt Sync="TRUE">0</efeacnt>
+				<spindex Sync="TRUE">FALSE</spindex>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+			</esriterm>
+		</ptvctinf>
+	</spdoinfo>
+	<eainfo>
+		<detailed Name="MetroCollaborativeTrailsBikeways">
+			<enttyp>
+				<enttypl Sync="TRUE">MetroCollaborativeTrailsBikeways</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">0</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">FID</attrlabl>
+				<attalias Sync="TRUE">FID</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">Esri</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">UNIQUE_ID</attrlabl>
+				<attalias Sync="TRUE">UNIQUE_ID</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">36</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">TRAILNAME</attrlabl>
+				<attalias Sync="TRUE">TRAILNAME</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">150</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">TRLSYSNAME</attrlabl>
+				<attalias Sync="TRUE">TRLSYSNAME</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">150</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAREDNAME</attrlabl>
+				<attalias Sync="TRUE">SHAREDNAME</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">150</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FED_SYS</attrlabl>
+				<attalias Sync="TRUE">FED_SYS</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">7</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NTL_SYS</attrlabl>
+				<attalias Sync="TRUE">NTL_SYS</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">7</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">STATE_SYS</attrlabl>
+				<attalias Sync="TRUE">STATE_SYS</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">7</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">REG_SYS</attrlabl>
+				<attalias Sync="TRUE">REG_SYS</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">7</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CTY_SYS</attrlabl>
+				<attalias Sync="TRUE">CTY_SYS</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">7</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LOC_SYS</attrlabl>
+				<attalias Sync="TRUE">LOC_SYS</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">7</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">TRBL_SYS</attrlabl>
+				<attalias Sync="TRUE">TRBL_SYS</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">7</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PRVTE_SYS</attrlabl>
+				<attalias Sync="TRUE">PRVTE_SYS</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">7</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PROT_SYS</attrlabl>
+				<attalias Sync="TRUE">PROT_SYS</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">7</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">GEN_TYPE</attrlabl>
+				<attalias Sync="TRUE">GEN_TYPE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">15</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SUMMER_USE</attrlabl>
+				<attalias Sync="TRUE">SUMMER_USE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">75</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">WINTER_USE</attrlabl>
+				<attalias Sync="TRUE">WINTER_USE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">75</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LANDOWNER</attrlabl>
+				<attalias Sync="TRUE">LANDOWNER</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">150</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">OWNERTYPE</attrlabl>
+				<attalias Sync="TRUE">OWNERTYPE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AGENCYNAME</attrlabl>
+				<attalias Sync="TRUE">AGENCYNAME</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">150</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AGCY_TYPE</attrlabl>
+				<attalias Sync="TRUE">AGCY_TYPE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CITY_MUNI</attrlabl>
+				<attalias Sync="TRUE">CITY_MUNI</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">COUNTY</attrlabl>
+				<attalias Sync="TRUE">COUNTY</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">STATE</attrlabl>
+				<attalias Sync="TRUE">STATE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PARKID</attrlabl>
+				<attalias Sync="TRUE">PARKID</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">16</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">TRLSTATUS</attrlabl>
+				<attalias Sync="TRUE">TRLSTATUS</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SURFACETYP</attrlabl>
+				<attalias Sync="TRUE">SURFACETYP</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CONDITION</attrlabl>
+				<attalias Sync="TRUE">CONDITION</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PARL_RD</attrlabl>
+				<attalias Sync="TRUE">PARL_RD</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ALTPARLRD</attrlabl>
+				<attalias Sync="TRUE">ALTPARLRD</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">YEAR_PRGRM</attrlabl>
+				<attalias Sync="TRUE">YEAR_PRGRM</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">5</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">YEAR_OPEN</attrlabl>
+				<attalias Sync="TRUE">YEAR_OPEN</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">5</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LENGTH</attrlabl>
+				<attalias Sync="TRUE">LENGTH</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">WIDTH</attrlabl>
+				<attalias Sync="TRUE">WIDTH</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SIDESTREET</attrlabl>
+				<attalias Sync="TRUE">SIDESTREET</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PRD_SPEED</attrlabl>
+				<attalias Sync="TRUE">PRD_SPEED</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">5</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">RTE_SPEED</attrlabl>
+				<attalias Sync="TRUE">RTE_SPEED</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">5</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">DIRECTION</attrlabl>
+				<attalias Sync="TRUE">DIRECTION</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">RBTN</attrlabl>
+				<attalias Sync="TRUE">RBTN</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">7</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">DIFFRTG</attrlabl>
+				<attalias Sync="TRUE">DIFFRTG</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ACCESS_STS</attrlabl>
+				<attalias Sync="TRUE">ACCESS_STS</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SEASNL_ACC</attrlabl>
+				<attalias Sync="TRUE">SEASNL_ACC</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">MOTOR_USE</attrlabl>
+				<attalias Sync="TRUE">MOTOR_USE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">MNTSUMMER</attrlabl>
+				<attalias Sync="TRUE">MNTSUMMER</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">150</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">MNTWINTER</attrlabl>
+				<attalias Sync="TRUE">MNTWINTER</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">150</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PVMNTYEAR</attrlabl>
+				<attalias Sync="TRUE">PVMNTYEAR</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">5</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PVMNTMAINT</attrlabl>
+				<attalias Sync="TRUE">PVMNTMAINT</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PVMNTMARKS</attrlabl>
+				<attalias Sync="TRUE">PVMNTMARKS</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">7</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ACQSOURCE</attrlabl>
+				<attalias Sync="TRUE">ACQSOURCE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">75</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ACQMETHOD</attrlabl>
+				<attalias Sync="TRUE">ACQMETHOD</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">75</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ACQCOMMENT</attrlabl>
+				<attalias Sync="TRUE">ACQCOMMENT</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">150</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LWCFPROT</attrlabl>
+				<attalias Sync="TRUE">LWCFPROT</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">7</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">OTHERPROT</attrlabl>
+				<attalias Sync="TRUE">OTHERPROT</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">RESPRTCMNT</attrlabl>
+				<attalias Sync="TRUE">RESPRTCMNT</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">150</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SRTS_ZONE</attrlabl>
+				<attalias Sync="TRUE">SRTS_ZONE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">7</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LIGHTING</attrlabl>
+				<attalias Sync="TRUE">LIGHTING</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">7</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ADT_BIKE</attrlabl>
+				<attalias Sync="TRUE">ADT_BIKE</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ADT_PED</attrlabl>
+				<attalias Sync="TRUE">ADT_PED</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">TRL_URL</attrlabl>
+				<attalias Sync="TRUE">TRL_URL</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">254</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">DATAAUTHOR</attrlabl>
+				<attalias Sync="TRUE">DATAAUTHOR</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">EDITED_BY</attrlabl>
+				<attalias Sync="TRUE">EDITED_BY</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">100</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">EDITED_DT</attrlabl>
+				<attalias Sync="TRUE">EDITED_DT</attalias>
+				<attrtype Sync="TRUE">Date</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CREATED_BY</attrlabl>
+				<attalias Sync="TRUE">CREATED_BY</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">100</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CREATED_DT</attrlabl>
+				<attalias Sync="TRUE">CREATED_DT</attalias>
+				<attrtype Sync="TRUE">Date</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attalias Sync="TRUE">Shape</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">Esri</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape_Leng</attrlabl>
+				<attalias Sync="TRUE">Shape_Leng</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+		</detailed>
+	</eainfo>
+	<mdDateSt Sync="TRUE">20220629</mdDateSt>
+</metadata>

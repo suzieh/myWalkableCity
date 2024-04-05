@@ -1,0 +1,8 @@
+geopandas
+pandas
+matplotlib
+plotly
+shapely
+contextily
+dash==2.9.3
+gunicorn

@@ -1,0 +1,119 @@
+﻿<metadata><eainfo><overview><eaover>CO_CODE: 3-digit FIPS and state standard county ID code.
+003 = Anoka County
+019 = Carver County
+037 = Dakota County
+053 = Hennepin County
+123 = Ramsey County
+139 = Scott County
+163 = Washington County
+
+CTU_CODE: 5-digit FIPS55 'Place' code for CTU. As of 2006, the federal government has officially retired these codes. The Census Bureau will continue to create FIPS55 Place codes for new cities and townships through the 2010 Census. After that, no new FIPS55 codes will be created. Note that for townships that wholly incorporate into cities, the same FIPS55 code for the former township will usually be used for the new city. Conversely, GNIS creates a new ID for the new city.
+
+CTU_ID: The Geographic Names Information System (GNIS) official federal unique identifier for each city, township, or unorganized territory.
+
+COCTU_ID: 11 digit identifier for the combination of county and CTU (concatination of CO_CODE and CTU_ID_CEN). This is the official U.S. Census Bureau format.
+
+CTU_NAME: Name of the city, township or unorganized territory, e.g. Benton Twp., Blaine.
+
+YEAR: The year the permit was issued.
+
+NONRES_GROUP: Designation of non-residential projects into 3 general categories:
+Commercial
+Industrial
+Public and Institutional
+
+NONRES_SUBGROUP: Designation of project into one of 12 subgroups:
+Commercial -- Other Services
+Government
+Hospitals and Nursing Homes
+Industrial
+Mixed Office and Retail
+Office
+Office and Warehouse Mix
+Recreation -- Public
+Religious
+RET = Retail
+SCH = Schools
+TRS = Transportation Structures
+
+NONRES_TYPE_DESC: Designation of non-residential projects into one of 24 building type categories:
+Airport
+Arts, Entertainment and Recreation
+Bank
+Eating and Drinking Establishments
+Government Office
+Hospitals and Nursing Homes
+Hotel-Lodging
+Manufacturing
+Medical--Commercial
+Mixed Commercial/Residential
+Office
+Office and Retail
+Office/Warehouse
+Other Commercial Services
+Other Industrial
+Other Transportation
+Public Works
+Recreation--Public
+Religious
+Retail
+Schools
+Transit
+Utilities--Commercial
+Warehouse
+
+BLDG_NAME: The name of the building, developer, or owner of the building.
+
+BLDG_DESC: A description of the building's use.
+
+PERMIT_TYPE: Designation of non-residential projects into 3 general categories:
+New
+Addition
+Remodel
+
+PERMIT_VALUE: Permit value of building or addition
+
+SQF: Square footage of building or addition.
+
+ADDRESS: Location of the project
+
+ZIP_CODE: Zip code of the residential unit(s)
+
+PIN: The unique parcel identifier (PID) or parcel identification number (PIN) that is use within the county
+
+COMMUNITY_DESIGNATION_NAME: A designation of each city and township based on the overall state of development and regional issues faced by the community
+</eaover><eadetcit>Not Applicable
+</eadetcit></overview></eainfo><idinfo><citation><citeinfo><origin>Metropolitan Council</origin><title>Commercial, Industrial, and Public and Institutional Permits, Twin Cities Metropolitan Area</title><pubinfo><publish>Metropolitan Council</publish></pubinfo><pubdate>20231031</pubdate><onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-struc-non-res-construction</onlink></citeinfo></citation><descript><abstract>This dataset consists of non-residential building permits issued in the 7-county Twin Cities Metropolitan Area from 2009 through 2022.</abstract><purpose>This dataset was created to track non-residential building permits issued in the 7-county Metropolitan Area.
+</purpose><supplinf>Twin Cities 7 county metropolitan area. This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington.
+</supplinf></descript><status><progress>Complete</progress><update>Annually</update></status><timeperd><timeinfo><sngdate><caldate>20231031</caldate></sngdate></timeinfo><current>Not Applicable</current></timeperd><crossref><citeinfo><title>Residential Permits</title></citeinfo></crossref><accconst>None. This dataset is public domain under the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13). If the dataset is not available from the Online Linkage in Section 6, please contact the Distribution Contact Person.</accconst><useconst>None. This dataset is public domain under the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).</useconst><browse><browsen>Not Applicable</browsen><browsed>Not Applicable</browsed></browse><spdom><bounding><westbc>-94.012</westbc><eastbc>-92.732</eastbc><northbc>45.415</northbc><southbc>44.471</southbc></bounding></spdom><keywords><place><placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County
+</placekey></place><theme><themekt>None</themekt><themekey>commercial, industrial, public, institutional, nonresidential building permits, building permits, permits
+</themekey></theme></keywords><ptcontac><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Joel Nyhus</cntper></cntperp><cntpos>Reseacher</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>MN</state><postal>55101-1805</postal></cntaddr><cntvoice>651.602.1634</cntvoice><cntemail>joel.nyhus@metc.state.mn.us</cntemail></cntinfo></ptcontac></idinfo><metainfo><metd>20231031</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Joel Nyhus</cntper></cntperp><cntpos>Reseacher</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>MN</state><postal>55101-1805</postal></cntaddr><cntvoice>651.602.1634</cntvoice><cntemail>joel.nyhus@metc.state.mn.us</cntemail></cntinfo></metc></metainfo><distinfo><distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab><stdorder><ordering>See Online Linkage Below</ordering></stdorder><resdesc>VWNonResidentialPermits</resdesc><distrib><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>GIS Contact</cntper></cntperp><cntaddr><address>390 Robert Street North</address><city>St. Paul</city><state>MN</state><postal>55101-1805</postal><addrtype>mailing and physical</addrtype></cntaddr><cntemail>gis-contact@metc.state.mn.us</cntemail></cntinfo></distrib></distinfo><dataqual><logic>None</logic><complete>Entire 7 county area is covered.</complete><posacc><horizpa><horizpar>Not Applicable</horizpar></horizpa><vertacc><vertaccr>Not Applicable</vertaccr></vertacc></posacc><attracc><attraccr>Not Applicable</attraccr></attracc><lineage><procstep><procdesc>The data were obtained through an annual survey sent to communities by the Metropolitan Council and from the U.S. Census Bureau.
+
+The data on returned surveys were verified by Metropolitan Council staff through various means including: contact with community staff, comparison to data from the Residential Construction Branch of the Manufacturing and Construction Division of the U.S. Census Bureau, community websites, and comparison to data submitted by communities in the Metropolitan Council's annual Livable Communities Act (LCA) survey. Data from the Residential Construction Branch of the Manufacturing and Construction Division of the U.S. Census Bureau were used if a community did not return the survey.
+
+Data may be periodically updated to reflect corrections.
+
+A small number of communities each year may not provide data. These are typically places with no residential construction occurring.
+
+Historical data may be available for the following places:
+
+Burns Township (became the city of Nowthen, July 2008)
+Chaska Township (merged with the city of Chaska, January 2005)
+Columbus Township (became the city of Columbus, September 2006)
+Credit River Township (became the city of Credit River, June 2021)
+Elko (merged with the city of New Market to become Elko New Market, January 2007)
+Forest Lake Township (merged with the city of Forest Lake, March 2000)
+Grant Township (became the city of Grant, January 1997)
+Hassan Township (merged with the city of Rogers, January 1, 2012)
+New Market (merged with the city of Elko to become Elko New Market, January 2007)
+New Scandia Township (became the city of Scandia, January 2007)
+Norwood (merged with the city of Young America to become Norwood Young America, January 1997)
+Oak Grove Township (became the city of Oak Grove, December 1993)
+Young America (merged with the city of Norwood to become Norwood Young America, January 1997)
+
+
+
+The data on returned surveys were verified by Metropolitan Council staff through various means including: contact with community staff, community websites, and comparison to data in the Council's Service Availability Charge (SAC) reports where possible.
+
+For this data, projects are counted at the time local units of government issue building permits.
+</procdesc></procstep></lineage></dataqual><spref><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref></metadata>
