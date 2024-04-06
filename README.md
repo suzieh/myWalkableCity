@@ -18,6 +18,9 @@ This reposoitory assumes running Python3. Please then also install all requireme
 
 The [MyWalkableCity application](https://mywalkablecity.onrender.com/) is deployed with Render (note: on 0.1 CPU plan so can be slow to update given data sizes).
 
+Preview of the dashboard:
+![my Walkable City dashboard preview, showing choices on the left and map on the right](https://github.com/suzieh/myWalkableCity/blob/main/pngs/dashboard_preview.png)
+
 
 ## Description of other Python scripts
 
