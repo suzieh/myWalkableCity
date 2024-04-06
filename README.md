@@ -26,11 +26,11 @@ Preview of the dashboard:
 
 Other scripts used in deployment of this application-passion-project can be found in the lib/ directory.
 
-*convert_shp_csv.py*: Converting shapefiles provided by MN Geospatial Commons to CSV format for simpler pandas manipulation.
+**convert_shp_csv.py**: Converting shapefiles provided by MN Geospatial Commons to CSV format for simpler pandas manipulation.
 
-*resize_shapefile.py*: Remove unneeded records (parks/trails not yet open) to reduce the size of shapefiles. Done prior to uploading to GitHub due to storage limits.
+**resize_shapefile.py**: Remove unneeded records (parks/trails not yet open) to reduce the size of shapefiles. Done prior to uploading to GitHub due to storage limits.
 
-*generate_buffers.py*: Using geopandas to create "buffers" of designated sizes around path, park, and building geometries. Buffers are polygons representing the area around these objects, e.g. a polygon representing the area 800 meters from a bike path.
+**generate_buffers.py**: Using geopandas to create "buffers" of designated sizes around path, park, and building geometries. Buffers are polygons representing the area around these objects, e.g. a polygon representing the area 800 meters from a bike path.
 
-*combine_buffers.py*: Combine Buffers represented as Polygons into MultiPolygons for speed of rendering. This also combines overlapping buffers of the same type (i.e. same type of trails are combined into one cohesive trail).
+**combine_buffers.py**: Combine Buffers represented as Polygons into MultiPolygons for speed of rendering. This also combines overlapping buffers of the same type (i.e. same type of trails are combined into one cohesive trail).
 
